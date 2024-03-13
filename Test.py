@@ -18,7 +18,6 @@ from sklearn.ensemble import RandomForestClassifier
 
 
 def testSimilarityIntercorrelation(dataset, selected_columns=None):
-    # Read the TSV file into a DataFrame
     df = pd.read_csv('C:\\Users\\Palma\\Desktop\\PHD\\WikiWooW\\'+str(dataset), sep=';')
     df = pd.read_csv(dataset, sep=';', header=0)
     selected_column = 'PalmaInterestingnessEnt1Ent2'  
