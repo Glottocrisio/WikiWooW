@@ -52,25 +52,25 @@ import matplotlib.pyplot as plt
 # dataset = "simpopoutput_partition_alex12.tsv"
 # t.datasetcleansing(dataset)
 # clks.addInterestingnessclkstrdataset('clean'+dataset)
-i=1
-while i<=4:
-    clks.addPopularityclkstrdataset("output_partition_alex"+str(i)+".tsv")
-    # OR
-    # i=1
-    # while i < 12:
-    #     clks.addPopularityclkstrdataset("clkstrdataset"+str(i)+".tsv")
-    #     i+=1
+# i=1
+# while i<=4:
+#     clks.addPopularityclkstrdataset("output_partition_alex"+str(i)+".tsv")
+#     # OR
+#     # i=1
+#     # while i < 12:
+#     #     clks.addPopularityclkstrdataset("clkstrdataset"+str(i)+".tsv")
+#     #     i+=1
 
 
-    ##4. Append corpus-based and knowledge-based similarity values to the dataset
+#     ##4. Append corpus-based and knowledge-based similarity values to the dataset
 
-    clks.addKSimilarityclkstrdataset("popoutput_partition_alex"+str(i)+".tsv")
+#     clks.addKSimilarityclkstrdataset("popoutput_partition_alex"+str(i)+".tsv")
 
-    ##5. Append P-Interestingness value to the dataset
-    dataset = "simpopoutput_partition_alex"+str(i)+".tsv"
-    t.datasetcleansing(dataset)
-    clks.addInterestingnessclkstrdataset('clean'+dataset)
-    i+=1
+#     ##5. Append P-Interestingness value to the dataset
+#     dataset = "simpopoutput_partition_alex"+str(i)+".tsv"
+#     t.datasetcleansing(dataset)
+#     clks.addInterestingnessclkstrdataset('clean'+dataset)
+#     i+=1
 
 ##6. (Optional) add features vectors to the dataset
 ##clks.addFeaturesclkstrdataset("temp_datasetpop.tsv")
@@ -84,49 +84,168 @@ while i<=4:
 ## After building up the dataset, all kinds of experiments are possible with it
 ## Among them we consider these:
 
-##1 Check for correlation among all paramenters belonging to the same category 
-##(Popularity, Similarity)
-##a) Popularity
-# selected_columns = ['PopularityEnt1','PopularityEnt2', 'PopularityDiff', 'PopularitySum'] 
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv', selected_columns)
-# tst.visualize_correlations(correlations)
+#Features comparison and analysis
 
-# ##b) Similarity
-
-# selected_columns = ['CosineSimilarityEnt1Ent2', 'DBpediaSimilarityEnt1Ent2', 'DBpediaRelatednessEnt1Ent2'] 
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv', selected_columns)
-# tst.visualize_correlations(correlations)
-
-# ##2 Check for cross-category correlations, to see how these are intertwined:
-
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv')
-# tst.visualize_correlations(correlations)
-
-# ##3 Based on that considerations and on the law extrapolated in a qualitative way 
-# ##(just refer, in this case, to the paper you wrote for text to story)
+# tst.pca('finaldataset_Alexander_light_annotated_out.tsv')
+# tst.pca('finaldataset_Alexander_light_annotated_in.tsv')
+# tst.pca('temp_datasetfinalAnubis.tsv')
 
 
-# selected_columns = ['ClickstreamEnt1Ent2', 'PopularitySum'] 
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv', selected_columns)
-# tst.visualize_correlations(correlations)
+#tst.regression('finaldataset_Alexander_light_annotated_in.tsv')
+#tst.regression('finaldataset_Alexander_light_annotated_out.tsv')
+#tst.regression('temp_datasetfinalAnubis.tsv')
 
-# selected_columns = ['ClickstreamEnt1Ent2', 'CosineSimilarityEnt1Ent2'] 
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv', selected_columns)
-# tst.visualize_correlations(correlations)
+tst.MultnaiveBayes('finaldataset_Alexander_light_annotated_in.tsv')
+tst.MultnaiveBayes('finaldataset_Alexander_light_annotated_out.tsv')
 
-# selected_columns = ['ClickstreamEnt1Ent2', 'DBpediaRelatednessEnt1Ent2'] 
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv', selected_columns)
-# tst.visualize_correlations(correlations)
+tst.knn('finaldataset_Alexander_light_annotated_in.tsv')
+tst.knn('finaldataset_Alexander_light_annotated_out.tsv')
 
-# selected_columns = ['CosineSimilarityEnt1Ent2', 'DBpediaSimilarityEnt1Ent2'] 
-# correlations = tst.testSimilarityIntercorrelation('temp_datasetintfinalclean.tsv', selected_columns)
-# tst.visualize_correlations(correlations)
+tst.rfc('finaldataset_Alexander_light_annotated_in.tsv')
+tst.rfc('finaldataset_Alexander_light_annotated_out.tsv')
 
-# tst.pca('temp_datasetintfinalclean.tsv')
+tst.knn('finaldataset_Alexander_light_annotated_in.tsv')
+tst.knn('finaldataset_Alexander_light_annotated_out.tsv')
+
+tst.svm('finaldataset_Alexander_light_annotated_in.tsv')
+tst.svm('finaldataset_Alexander_light_annotated_out.tsv')
+
+
+
+selected_columns = ['ClickstreamEnt1Ent2', 'PopularitySum'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'PopularitySum'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'CosineSimilarityEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'CosineSimilarityEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['CosineSimilarityEnt1Ent2', 'DBpediaRelatednessEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['CosineSimilarityEnt1Ent2', 'DBpediaRelatednessEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'DBpediaRelatednessEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'DBpediaRelatednessEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'Int_Hum_Eval'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander_light_annotated_in.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'Int_Hum_Eval']
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'PalmaInterestingnessEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2', 'PalmaInterestingnessEnt1Ent2'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+# tst.pca('finaldataset_Alexander_light_annotated_out.tsv')
 # tst.isoforest('temp_datasetintfinalclean.tsv', 'PalmaInterestingnessEnt1Ent2', 'ClickstreamEnt1Ent2')
 # tst.cluster('temp_datasetintfinalclean.tsv', 'CosineSimilarityEnt1Ent2', 'DBpediaSimilarityEnt1Ent2')
 
-# tst.regression('temp_datasetintfinalclean.tsv')
+
+##Comparison of interestingness between in- and outgoing links dataset
+
+
+df = pd.read_csv('finaldataset_Alexander_light_annotated_out.tsv', sep=';')
+
+selected_column = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_selected_column' with the name of the column
+
+column_name = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+# Create the new column with values based on the condition
+df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > average_value else 0)
+
+column_name = 'PalmaInterestingnessBool'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+column_name = 'Int_Hum_Eval'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+df = pd.read_csv('finaldataset_Alexander_light_annotated_in.tsv', sep=';')
+
+column_name = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > average_value else 0)
+
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+column_name = 'PalmaInterestingnessBool'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+
+column_name = 'Int_Hum_Eval'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+df = pd.read_csv('temp_datasetfinalAnubis.tsv', sep=';')
+
+column_name = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > average_value else 0)
+
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+column_name = 'PalmaInterestingnessBool'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+print(f"The average value of column '{column_name}' is: {average_value}")
+
+
+column_name = 'Int_Hum_Eval'  # Replace 'your_column' with the name of the column
+average_value = df[column_name].mean()
+print(f"The average value of column '{column_name}' is: {average_value}")
+# # Plot the data
+# plt.figure(figsize=(8, 6))
+# plt.scatter(x_values, y_values, color='blue', alpha=0.5)  # Scatter plot
+# plt.title('Plot of Column X vs Column Y')
+# plt.xlabel('Column X')
+# plt.ylabel('Column Y')
+# plt.grid(True)
+# plt.show()
+
+selected_columns = ['PalmaInterestingnessBool', 'PalmaInterestingnessEnt1Ent2', 'Int_Hum_Eval'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['PalmaInterestingnessBool','PalmaInterestingnessEnt1Ent2', 'Int_Hum_Eval'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander_light_annotated_in.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['PalmaInterestingnessBool','PalmaInterestingnessEnt1Ent2', 'Int_Hum_Eval'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander_light_annotated_out.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+##3 Based on that considerations and on the law extrapolated in a qualitative way 
+##(just refer, in this case, to the paper you wrote for text to story)
 
 
 #Read TSV file into a DataFrame
