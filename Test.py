@@ -9,21 +9,24 @@ from sklearn.ensemble import IsolationForest
 from sklearn.cluster import KMeans
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, r2_score, precision_score, recall_score, f1_score
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report
+from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classification_report, accuracy_score
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
 
 
 def testSimilarityIntercorrelation(dataset, selected_columns=None):
     # Read the TSV file into a DataFrame
-    df = pd.read_csv(dataset, sep=';')
+    df = pd.read_csv('C:\\Users\\Palma\\Desktop\\PHD\\WikiWooW\\'+str(dataset), sep=';')
     df = pd.read_csv(dataset, sep=';', header=0)
+    selected_column = 'PalmaInterestingnessEnt1Ent2'  
+    df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > 5 else 0)
     
-    # If selected_columns is not provided, analyze all numeric columns
     if selected_columns is None:
         selected_columns = df.select_dtypes(include=['number']).columns
 
-    # Calculate correlations for selected columns
     correlations = df[selected_columns].corr(method='pearson')  # You can choose a different method if needed
 
     return correlations
@@ -43,35 +46,118 @@ def visualize_correlations(correlations):
     plt.yticks(np.arange(len(correlations)), correlations.columns)
     plt.show()
 
-dataset = 'temp_datasetintfinalclean.tsv'
+dataset = 'finaldataset_Alexander_light_annotated_out.tsv'
 df = pd.read_csv(dataset, sep=';')
 df = df.iloc[:, 2:]
+
+#Random Forest Classifier  [2, 5, 6, 7, 8, 9, 11]
+
+def rfc(dataset):
+    df = pd.read_csv(dataset, sep=';')
+
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
+    y = df.iloc[:, -1].values 
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    rf_classifier = RandomForestClassifier(n_estimators=100)  
+    rf_classifier.fit(X_train, y_train)
+    y_pred = rf_classifier.predict(X_test)
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+    print(f"Accuracy of Random Forest classifier: {accuracy:.2f}")
+    print(f"precision of Random Forest classifier: {precision:.2f}")
+    print(f"recall of Random Forest classifier: {recall:.2f}")
+    print(f"f1 of Random Forest classifier: {f1:.2f}")
+    print(classification_report(y_test, y_pred))
+    cm = confusion_matrix(y_test, y_pred, labels=rf_classifier.classes_)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=rf_classifier.classes_)
+    disp.plot()
+    plt.show()
+
+
+#SVM
+
+def svm(dataset):
+    df = pd.read_csv(dataset, sep=';')
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values  
+    y = df.iloc[:, -1].values 
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    svm_classifier = SVC(kernel='linear')  
+    svm_classifier.fit(X_train, y_train)
+
+    y_pred = svm_classifier.predict(X_test)
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+    print(f"Accuracy of SVM classifier: {accuracy:.2f}")
+    print(f"precision of Random Forest classifier: {precision:.2f}")
+    print(f"recall of Random Forest classifier: {recall:.2f}")
+    print(f"f1 of Random Forest classifier: {f1:.2f}")
+    print(classification_report(y_test, y_pred))
+    cm = confusion_matrix(y_test, y_pred, labels=svm_classifier.classes_)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=svm_classifier.classes_)
+    disp.plot()
+    plt.show()
+
+
+#KNN
+
+def knn(dataset):
+    
+    df = pd.read_csv(dataset, sep=';')
+
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values  
+    y = df.iloc[:, -1].values 
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    k = 5  
+    knn = KNeighborsClassifier(n_neighbors=k)
+
+    knn.fit(X_train, y_train)
+
+    y_pred = knn.predict(X_test)
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+    print(f"Accuracy of K-NN classifier with k={k}: {accuracy:.2f}")
+    print(f"precision of Random Forest classifier: {precision:.2f}")
+    print(f"recall of Random Forest classifier: {recall:.2f}")
+    print(f"f1 of Random Forest classifier: {f1:.2f}")
+    print(classification_report(y_test, y_pred))
+    cm = confusion_matrix(y_test, y_pred, labels=knn.classes_)
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=knn.classes_)
+    disp.plot()
+    plt.show()
+    
 
 # PRINCIPAL COMPONENTS ANALYSIS
 
 def pca(dataset):
+    df = pd.read_csv(dataset, sep=';')
     df_subset = df.iloc[:, 2:]
-    # Standardize the data
     scaler = StandardScaler()
     df_standardized = scaler.fit_transform(df_subset)
-    # Apply PCA
     pca = PCA()
     pca_result = pca.fit_transform(df_standardized)
-    # Access explained variance ratio
     explained_variance_ratio = pca.explained_variance_ratio_
-    # Print the first few principal components
     print("Principal Components:")
     print(pd.DataFrame(pca.components_, columns=df_subset.columns))
 
 ##ISOLATION FOREST
 
 def isoforest(dataset,x,y):
-    iso_forest = IsolationForest(contamination=0.05)  # Adjust contamination based on your data
-    # Fit the model and predict outliers
+    df = pd.read_csv(dataset, sep=';')
+    iso_forest = IsolationForest(contamination=0.05)  
     outliers = iso_forest.fit_predict(df)
-    # Add the outlier labels to the DataFrame
     df['is_outlier'] = outliers
-    # Visualize outliers
     df.plot.scatter(x=x, y=y, c='is_outlier', cmap='viridis')
 
 
@@ -79,12 +165,10 @@ def isoforest(dataset,x,y):
 
 def cluster(dataset, x, y):
     num_clusters = 2
-
-    # Fit KMeans model
+    df = pd.read_csv(dataset, sep=';')
     kmeans = KMeans(n_clusters=num_clusters)
     df['cluster'] = kmeans.fit_predict(df)
 
-    # Visualize clusters
     plt.scatter(df.iloc[:, 0], df.iloc[:, 1], c=df['cluster'], cmap='viridis')
     plt.title('Cluster Analysis')
     plt.xlabel(x)
@@ -93,22 +177,22 @@ def cluster(dataset, x, y):
     
 
 def regression(dataset):
-    # Assuming X contains all columns except the first two, and y is the third column
-    X = df.values
-    y = df.iloc[:, 8].values  # Adjust the column index based on your data
-    # Split the data into training and testing sets
+    df = pd.read_csv(dataset, sep=';')
+    X = df.iloc[:, [2, 9]].values  
+    y = df.iloc[:, -1].values  
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # Create a linear regression model
     model = LinearRegression()
-    # Train the model
+
     model.fit(X_train, y_train)
 
-    # Make predictions on the test set
     y_pred = model.predict(X_test)
-    # Evaluate the model
+
     mse = mean_squared_error(y_test, y_pred)
-    print(f'Mean Squared Error: {mse}')
+    r2 = r2_score(y_test, y_pred)
+
+    print("Mean Squared Error:", mse)
+    print("R-squared:", r2)
    
     # Visualize the regression line
     plt.scatter(y_test, y_pred, color='blue', label='Actual')
@@ -122,19 +206,15 @@ def regression(dataset):
     #print(classification_report(y_test, y_pred)) 
 
 
-def MultnaiveBayes():
+def MultnaiveBayes(dataset):
     nb = MultinomialNB()
     df = pd.read_csv(dataset, sep=';')
-    df =df.iloc[:, 2:]
-    X = df.values
-    y = df.iloc[:, 8].values
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
+    y = df.iloc[:, -1].values
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     nb.fit(X_train, y_train)
-    #Testing our model
     nb_predict = nb.predict(X_test)
 
-    #Creating the confusion matrix
-    
     cm = confusion_matrix(y_test, nb_predict, labels=nb.classes_)
     disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=nb.classes_)
     disp.plot()
