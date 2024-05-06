@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>200d8813-a978-4b0a-99c9-285aec441100</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>WikiWooW.py</StartupFile>
+    <StartupFile>SyReg.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,16 +23,22 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="clkStreamDataset.py" />
+    <Compile Include="SyReg.py" />
     <Compile Include="WikiWooW.py" />
     <Compile Include="Palma_Interestingness.py" />
     <Compile Include="Test.py" />
     <Compile Include="tools.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="temp_datasetintfinal.tsv" />
+    <Content Include="finaldataset.csv" />
+    <Content Include="finaldataset_Alexander.tsv" />
+    <Content Include="finaldataset_Alexander_light_annotated_in.tsv" />
+    <Content Include="finaldataset_Alexander_light_annotated_inout.tsv" />
+    <Content Include="ground_truth_interestingness.json" />
+    <Content Include="temp_datasetfinalAnubis.tsv" />
     <Content Include="temp_datasetintfinalclean.tsv" />
     <Content Include="temp_datasetintfinalclean.txt" />
-    <Content Include="wikiPageWikiLinkAnubis.tsv" />
+    <Content Include="updated_data.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

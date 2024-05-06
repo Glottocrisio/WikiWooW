@@ -21,22 +21,48 @@ import nltk
 from nltk import FreqDist
 from nltk.tokenize import word_tokenize  #NLP library
 import ast
+#from mlxtend. import apriori, association_rules
 
 stop_words = text.ENGLISH_STOP_WORDS
 #print(stop_words)
 stop_words = list(stop_words)
 
 
+# # Finding frequent itemsets
+# frequent_itemsets = apriori(df, min_support=0.5, use_colnames=True)
+# print(frequent_itemsets)
+
+# # Generating association rules
+# rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
+# print(rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])
+
+#to be enhanced after results are finalized
+def addgroundtruth(input_file, ground_truth_file):
+    #take input file
+    original_data = pd.read_csv(input_file)
+    mturk_labels = []
+    mturk_conf_values = []
+    # For each line, extract the confidence value. If above 0.85, assign value 1, 0 otherwise
+    with open(ground_truth_file, 'r') as json_file: 
+        for line in json_file:
+            data = json.loads(line)
+            label = data['interestingness-detector-metadata']['confidence']
+            mturk_conf_values.append(float(label))
+            if float(label) > 0.85:
+                mturk_labels.append(1)
+            else:
+                mturk_labels.append(0)
+
+    original_data['ground truth (threshold 0.80)'] = mturk_labels
+    original_data['ground truth confidence values'] = mturk_conf_values
+    original_data.to_csv("updated_data.csv", index=False)
+
 def file_partitioning(file_path, num_partitions):
 
-    # Read the large TSV file into a DataFrame
     df = pd.read_csv(file_path, sep='\t')
-    # Determine the number of rows per partition
     rows_per_partition = len(df) // num_partitions
-    # Split the DataFrame into n partitions
     partitions = [df.iloc[i:i+rows_per_partition] for i in range(0, len(df), rows_per_partition)]
 
-    # Write each partition to a separate TSV file
     for i, partition in enumerate(partitions):
         output_file_path = f'output_partition_alex{i+1}.tsv'
         partition.to_csv(output_file_path, sep='\t', index=False)

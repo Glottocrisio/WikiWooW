@@ -15,18 +15,44 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classifica
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
+from scipy.stats import spearmanr, kendalltau
+from gplearn.genetic import SymbolicRegressor
+# from mlxtend.frequent_patterns import apriori, association_rules
+
+# def assrules(dataset):
+#     df = pd.read_csv(dataset, sep=';')
+
+#     df = df.iloc[:, [2, 5, 6, 7, 8, 9, 10, 12, 13]]
+#     print(df.dtypes)
+#     frequent_itemsets = apriori(df, min_support=0.5, use_colnames=False)
+#     print(frequent_itemsets)
+
+#     # Generating association rules
+#     rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
+#     print(rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])
+
+# assrules("updated_data.csv")
 
 
 def testSimilarityIntercorrelation(dataset, selected_columns=None):
     df = pd.read_csv('C:\\Users\\Palma\\Desktop\\PHD\\WikiWooW\\'+str(dataset), sep=';')
     df = pd.read_csv(dataset, sep=';', header=0)
-    selected_column = 'PalmaInterestingnessEnt1Ent2'  
-    df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > 5 else 0)
-    
-    if selected_columns is None:
-        selected_columns = df.select_dtypes(include=['number']).columns
+    selected_column = 'PalmaInterestingnessEnt1Ent2' 
+    datarr = np.array(df['PalmaInterestingnessEnt1Ent2'])
+    df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > np.median(datarr) else 0)
+    datarr = np.array(df['ground truth confidence values'])
+    df['ground truth confidence values bool'] = df[selected_column].apply(lambda x: 1 if x > np.median(datarr) else 0)
+    # Rank each column and store the ranks in new columns
+    # for column in df.columns:
+    #     df[column + '_rank'] = df[column].rank(method='min')
+    # Convert all columns except the first two to integers
+    #df.iloc[:, 2:] = df.iloc[:, 2:].astype(float).astype(int)
 
-    correlations = df[selected_columns].corr(method='pearson')  # You can choose a different method if needed
+    print(df.head())
+    selected_columns = df.iloc[:, [2, 10, 12, 13]] #df.iloc[:, [2, 5, 6, 7, 8, 9, 10, 13, 14, 15]]#, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27]] 
+
+    correlations = selected_columns.corr(method='spearman')  # You can choose a different method if needed
 
     return correlations
 
@@ -40,22 +66,23 @@ def visualize_correlations(correlations):
             text = ax.text(j, i, f'{correlations.iloc[i, j]:.2f}',
                            ha='center', va='center', color='black')
     plt.colorbar(im, label='Correlation Coefficient')
-    plt.title('Correlation Matrix Heatmap with Annotations')
+    plt.title('Spearman\'s correlation Matrix Heatmap Alexander OUT')
     plt.xticks(np.arange(len(correlations)), correlations.columns, rotation=45)
     plt.yticks(np.arange(len(correlations)), correlations.columns)
     plt.show()
 
-dataset = 'finaldataset_Alexander_light_annotated_out.tsv'
-df = pd.read_csv(dataset, sep=';')
-df = df.iloc[:, 2:]
+#visualize_correlations(testSimilarityIntercorrelation("updated_data.csv"))
+# dataset = 'finaldataset_Alexander_light_annotated_out.tsv'
+# df = pd.read_csv(dataset, sep=';')
+# df = df.iloc[:, 2:]
 
 #Random Forest Classifier  [2, 5, 6, 7, 8, 9, 11]
 
 def rfc(dataset):
     df = pd.read_csv(dataset, sep=';')
 
-    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
-    y = df.iloc[:, -1].values 
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9, 10]].values 
+    y = df.iloc[:, 12].values 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     rf_classifier = RandomForestClassifier(n_estimators=100)  
@@ -76,13 +103,40 @@ def rfc(dataset):
     disp.plot()
     plt.show()
 
+#rfc("updated_data.csv")
+
+#RFR
+
+def rfreg(dataset):
+    df = pd.read_csv(dataset, sep=';')
+
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9, 10]].values 
+    y = df.iloc[:, 12].values 
+
+
+    # Split data into training and test sets
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    # Initialize and fit Random Forest
+    model = RandomForestRegressor(n_estimators=100)
+    model.fit(X_train, y_train)
+
+    # Get feature importances
+    importances = model.feature_importances_
+    #feature_names = X.c
+    feature_importances = pd.DataFrame(importances, columns=['importance']).sort_values('importance', ascending=False)
+    print(feature_importances)
+    return feature_importances
+
+#rfreg("updated_data.csv")
+
 
 #SVM
 
 def svm(dataset):
     df = pd.read_csv(dataset, sep=';')
-    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values  
-    y = df.iloc[:, -1].values 
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9, 10]].values  
+    y = df.iloc[:, 12].values 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     svm_classifier = SVC(kernel='linear')  
@@ -104,6 +158,7 @@ def svm(dataset):
     disp.plot()
     plt.show()
 
+#svm("updated_data.csv")
 
 #KNN
 
@@ -111,8 +166,8 @@ def knn(dataset):
     
     df = pd.read_csv(dataset, sep=';')
 
-    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values  
-    y = df.iloc[:, -1].values 
+    X = df.iloc[:, [2, 5, 6, 7, 8, 9, 10]].values  
+    y = df.iloc[:, 12].values 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     k = 5  
@@ -137,6 +192,8 @@ def knn(dataset):
     plt.show()
     
 
+#knn("updated_data.csv")
+
 # PRINCIPAL COMPONENTS ANALYSIS
 
 def pca(dataset):
@@ -149,6 +206,8 @@ def pca(dataset):
     explained_variance_ratio = pca.explained_variance_ratio_
     print("Principal Components:")
     print(pd.DataFrame(pca.components_, columns=df_subset.columns))
+
+pca("updated_data.csv")
 
 ##ISOLATION FOREST
 
@@ -220,3 +279,6 @@ def MultnaiveBayes(dataset):
     plt.show()
     print('\n')
     print(classification_report(y_test, nb_predict))
+
+
+

@@ -435,7 +435,7 @@ def entity_similarity(entity1, entity2):
 
 def palma_interestingness(ent1, ent2):
     try:
-        pop = math.log(couplepopularity(ent1, ent2) - abs(couplepopularity(ent1, ent2, False))) + 1
+        pop = math.log(couplepopularity(ent1, ent2) + abs(couplepopularity(ent1, ent2, False))) + 1
         csim = math.log(abs((CosineSimilarity("en", ent1, ent2)+fDBpediaSimilarity(ent1, ent2))/2))
         ksim = math.log(fDBpediaRelatedness(ent1,ent2)+0.1) 
         palma = (pop * abs(csim - ksim))

@@ -7,7 +7,7 @@ import json
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
+#t.addgroundtruth("finaldataset.csv", "ground_truth_interestingness.json")
 
 ##This module implements the principal pipeline derived combining the other modules
 
@@ -95,6 +95,32 @@ import matplotlib.pyplot as plt
 #tst.regression('finaldataset_Alexander_light_annotated_out.tsv')
 #tst.regression('temp_datasetfinalAnubis.tsv')
 
+
+# selected_columns = ['PalmaInterestingnessEnt1Ent2', 'ClickstreamEnt1Ent2', 'ground truth (threshold 0.79)', 'ground truth confidence values'] 
+# correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander_light_annotated_in.csv', selected_columns)
+# tst.visualize_correlations(correlations)
+
+selected_columns = ['PalmaInterestingnessEnt1Ent2', 'ClickstreamEnt1Ent2', 'ground truth (threshold 0.79)', 'ground truth confidence values'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander_light_annotated_out.csv', selected_columns)
+tst.visualize_correlations(correlations)
+
+
+
+selected_columns = ['ClickstreamEnt1Ent2','PopularityEnt1','PopularityEnt2','PopularityDiff','PopularitySum','CosineSimilarityEnt1Ent2','DBpediaSimilarityEnt1Ent2','DBpediaRelatednessEnt1Ent2','PalmaInterestingnessEnt1Ent2','Int_Hum_Eval'] 
+correlations = tst.testSimilarityIntercorrelation('temp_datasetfinalAnubis.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+selected_columns = ['ClickstreamEnt1Ent2','PopularityEnt1','PopularityEnt2','PopularityDiff','PopularitySum','CosineSimilarityEnt1Ent2','DBpediaSimilarityEnt1Ent2','DBpediaRelatednessEnt1Ent2','PalmaInterestingnessEnt1Ent2','Int_Hum_Eval'] 
+correlations = tst.testSimilarityIntercorrelation('finaldataset_Alexander_light_annotated_inout.tsv', selected_columns)
+tst.visualize_correlations(correlations)
+
+
+
+
+
+tst.svm('finaldataset_Alexander_light_annotated_in.tsv')
+tst.svm('finaldataset_Alexander_light_annotated_out.tsv')
+
 tst.MultnaiveBayes('finaldataset_Alexander_light_annotated_in.tsv')
 tst.MultnaiveBayes('finaldataset_Alexander_light_annotated_out.tsv')
 
@@ -104,11 +130,7 @@ tst.knn('finaldataset_Alexander_light_annotated_out.tsv')
 tst.rfc('finaldataset_Alexander_light_annotated_in.tsv')
 tst.rfc('finaldataset_Alexander_light_annotated_out.tsv')
 
-tst.knn('finaldataset_Alexander_light_annotated_in.tsv')
-tst.knn('finaldataset_Alexander_light_annotated_out.tsv')
 
-tst.svm('finaldataset_Alexander_light_annotated_in.tsv')
-tst.svm('finaldataset_Alexander_light_annotated_out.tsv')
 
 
 
