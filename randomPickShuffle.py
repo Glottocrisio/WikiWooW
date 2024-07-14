@@ -1,7 +1,6 @@
 import csv
 import random
 
-# Read the input file
 input_filename = 'C:\\Users\\Palma\\Desktop\\PHD\\ISAAKbackup\\ISAAKx\\temp_datasets\clkstrdataset6.tsv'  # Replace with your input file name
 entries = []
 
@@ -12,18 +11,15 @@ with open(input_filename, 'r', encoding='utf-8') as file:
         if len(parts) == 2:
             entries.append('; '.join(parts))
 
-# If there are less than 1000 entries, we'll use all of them
 num_entries = min(1000, len(entries))
 
 # Randomly select entries
 selected_entries = random.sample(entries, num_entries)
 
-# Write to txt file
 with open('selected_entries.txt', 'w',  encoding= 'utf-8') as f:
     for entry in selected_entries:
         f.write(entry + '\n')
 
-# Write to csv file
 with open('selected_entries.csv', 'w', encoding= 'utf-8', newline='') as f:
     writer = csv.writer(f)
     for entry in selected_entries:

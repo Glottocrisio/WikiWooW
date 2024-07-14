@@ -192,57 +192,55 @@ tst.visualize_correlations(correlations)
 
 df = pd.read_csv('finaldataset_Alexander_light_annotated_out.tsv', sep=';')
 
-selected_column = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_selected_column' with the name of the column
-
-column_name = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_column' with the name of the column
+selected_column = 'PalmaInterestingnessEnt1Ent2'  
+column_name = 'PalmaInterestingnessEnt1Ent2' 
 average_value = df[column_name].mean()
 
 print(f"The average value of column '{column_name}' is: {average_value}")
 
-# Create the new column with values based on the condition
 df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > average_value else 0)
 
-column_name = 'PalmaInterestingnessBool'  # Replace 'your_column' with the name of the column
+column_name = 'PalmaInterestingnessBool'  
 average_value = df[column_name].mean()
 
 print(f"The average value of column '{column_name}' is: {average_value}")
 
-column_name = 'Int_Hum_Eval'  # Replace 'your_column' with the name of the column
+column_name = 'Int_Hum_Eval'  
 average_value = df[column_name].mean()
 
 print(f"The average value of column '{column_name}' is: {average_value}")
 
 df = pd.read_csv('finaldataset_Alexander_light_annotated_in.tsv', sep=';')
 
-column_name = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_column' with the name of the column
+column_name = 'PalmaInterestingnessEnt1Ent2' 
 average_value = df[column_name].mean()
 df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > average_value else 0)
 
 print(f"The average value of column '{column_name}' is: {average_value}")
 
-column_name = 'PalmaInterestingnessBool'  # Replace 'your_column' with the name of the column
+column_name = 'PalmaInterestingnessBool'  
 average_value = df[column_name].mean()
 print(f"The average value of column '{column_name}' is: {average_value}")
 
 
-column_name = 'Int_Hum_Eval'  # Replace 'your_column' with the name of the column
+column_name = 'Int_Hum_Eval'  
 average_value = df[column_name].mean()
 print(f"The average value of column '{column_name}' is: {average_value}")
 
 df = pd.read_csv('temp_datasetfinalAnubis.tsv', sep=';')
 
-column_name = 'PalmaInterestingnessEnt1Ent2'  # Replace 'your_column' with the name of the column
+column_name = 'PalmaInterestingnessEnt1Ent2'  
 average_value = df[column_name].mean()
 df['PalmaInterestingnessBool'] = df[selected_column].apply(lambda x: 1 if x > average_value else 0)
 
 print(f"The average value of column '{column_name}' is: {average_value}")
 
-column_name = 'PalmaInterestingnessBool'  # Replace 'your_column' with the name of the column
+column_name = 'PalmaInterestingnessBool'  
 average_value = df[column_name].mean()
 print(f"The average value of column '{column_name}' is: {average_value}")
 
 
-column_name = 'Int_Hum_Eval'  # Replace 'your_column' with the name of the column
+column_name = 'Int_Hum_Eval'  
 average_value = df[column_name].mean()
 print(f"The average value of column '{column_name}' is: {average_value}")
 # # Plot the data

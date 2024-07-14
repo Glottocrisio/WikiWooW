@@ -86,13 +86,10 @@ def findwikiPageWikiLink(input_file, output_file, entity):
 
 def addPopularityclkstrdataset(clkstrdataset):
     
-    # Assuming your dataset is stored in a TSV file named 'your_dataset.tsv'
     input_file = clkstrdataset
     temp_file = 'pop'+clkstrdataset
 
-    # Open the input and temporary TSV files
     with open(input_file, 'r', newline='', encoding='utf-8') as input_tsv, open(temp_file, 'w', newline='') as temp_tsv:
-        # Create TSV reader and writer
         tsv_reader = csv.reader(input_tsv, delimiter=';')
         tsv_writer = csv.writer(temp_tsv, delimiter=';')
 
@@ -118,7 +115,7 @@ def addPopularityclkstrdataset(clkstrdataset):
             popdiff = round(abs(pope1 - pope2),2)
             popsum = round(abs(pope1 + pope2),2)
             
-             # with this line the temp_file is prevented to contain spurious
+             # with this line the temp_file is prevented to contain spurious values
             if pope1==0 or pope2 == 0:
                 pass
             else:
@@ -129,7 +126,6 @@ def addPopularityclkstrdataset(clkstrdataset):
                 except Exception as e:
                     continue
             
-            # Hereby we add to the next two columns popdiff and popsum
 
     print(f"Processing completed.")
 
@@ -139,19 +135,16 @@ def addKSimilarityclkstrdataset(clkstrdataset):
     
     input_file = clkstrdataset
     temp_file = 'sim'+clkstrdataset
-    # Open the input and temporary TSV files
     with open(input_file, 'r', newline='') as input_tsv, open(temp_file, 'w', newline='', encoding='utf-8') as temp_tsv:
         # Create TSV reader and writer
         tsv_reader = csv.reader(input_tsv, delimiter=';')
         tsv_writer = csv.writer(temp_tsv, delimiter=';')
         
-        # Write header to the temporary TSV file
         header = ['Entity1', 'Entity2', 'ClickstreamEnt1Ent2', 'PopularityEnt1','PopularityEnt2', 
                   'PopularityDiff', 'PopularitySum', 'CosineSimilarityEnt1Ent2', 'DBpediaSimilarityEnt1Ent2', 'DBpediaRelatednessEnt1Ent2', 'PalmaInterestingnessEnt1Ent2']
         tsv_writer.writerow(header)
 
         next(tsv_reader)
-        # Process each row in the dataset
         for row in tsv_reader:
             # with this loop we bring back the clickstream column as an int
             #row[2] = int(row[2])
@@ -172,13 +165,11 @@ def addKSimilarityclkstrdataset(clkstrdataset):
             except Exception as e:
                 continue
             
-        # Hereby we add to the next two columns popdiff and popsum
              
 
 def addInterestingnessclkstrdataset(clkstrdataset):
     input_file = clkstrdataset
     temp_file = 'int'+clkstrdataset
-    # Open the input and temporary TSV files
     with open(input_file, 'r', newline='', encoding='utf-8') as input_tsv, open(temp_file, 'w', newline='', encoding='utf-8') as temp_tsv:
         # Create TSV reader and writer
         tsv_reader = csv.reader(input_tsv, delimiter=';')
@@ -190,7 +181,6 @@ def addInterestingnessclkstrdataset(clkstrdataset):
 
         next(tsv_reader)
 
-        # Process each row in the dataset
         for row in tsv_reader:
             # with this loop we bring back the clickstream column as an int
             #row[2] = int(row[2])
@@ -214,7 +204,6 @@ def addInterestingnessclkstrdataset(clkstrdataset):
 
 
 def addFeaturesclkstrdataset(clkstrdataset):
-     # Assuming your dataset is stored in a TSV file named 'your_dataset.tsv'
     input_file = clkstrdataset
     temp_file = 'temp_datasetfeatfinal.tsv'
 
@@ -246,5 +235,4 @@ def addFeaturesclkstrdataset(clkstrdataset):
 
             tsv_writer.writerow(row)
             
-            # Hereby we add to the next two columns popdiff and popsum
 

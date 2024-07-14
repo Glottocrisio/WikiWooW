@@ -32,10 +32,9 @@ def correct_json_file(input_path, output_path):
         
 
 def calculate_fleiss_kappa(data1, data2):
-    n = len(data1)  # number of items
-    N = 2  # assume 10 annotators per item, adjust as needed
+    n = len(data1)  
+    N = 2  
 
-    # Create matrix where each row represents an item and each column represents a category
     matrix = np.zeros((n, 2))
     
     for i, (source, item1) in enumerate(data1.items()):

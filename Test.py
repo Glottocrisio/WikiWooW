@@ -115,11 +115,8 @@ def rfreg(dataset):
     X = df.iloc[:, [2, 5, 6, 7, 8, 9, 10]].values 
     y = df.iloc[:, 12].values 
 
-
-    # Split data into training and test sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    # Initialize and fit Random Forest
     model = RandomForestRegressor(n_estimators=100)
     model.fit(X_train, y_train)
 
@@ -364,7 +361,6 @@ def calculate_shap_importance(input_file, output_file):
     feature_importance = {k: np.mean(v) if isinstance(v, np.ndarray) else v for k, v in feature_importance.items()}
     return feature_importance
 
-# Example usage
 input_file = "updated_data.csv"
 output_file = "shap_feature_importance.png"
 try:
