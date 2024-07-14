@@ -19,6 +19,8 @@ from sklearn.ensemble import RandomForestRegressor
 from scipy.stats import spearmanr, kendalltau
 from gplearn.genetic import SymbolicRegressor
 # from mlxtend.frequent_patterns import apriori, association_rules
+from mpl_toolkits.mplot3d import Axes3D
+import shap
 
 # def assrules(dataset):
 #     df = pd.read_csv(dataset, sep=';')
@@ -197,17 +199,54 @@ def knn(dataset):
 # PRINCIPAL COMPONENTS ANALYSIS
 
 def pca(dataset):
-    df = pd.read_csv(dataset, sep=';')
+    df = pd.read_csv(dataset, sep=';', encoding='ISO-8859-1')
     df_subset = df.iloc[:, 2:]
     scaler = StandardScaler()
     df_standardized = scaler.fit_transform(df_subset)
     pca = PCA()
     pca_result = pca.fit_transform(df_standardized)
     explained_variance_ratio = pca.explained_variance_ratio_
+    
+    # Export PCA results to CSV
+    pca_df = pd.DataFrame(pca_result, columns=[f'PC{i+1}' for i in range(pca_result.shape[1])])
+    pca_df.to_csv('pca_result.csv', index=False)
+    
+    # Export explained variance ratio to CSV
+    explained_variance_df = pd.DataFrame(explained_variance_ratio, columns=['Explained Variance Ratio'])
+    explained_variance_df.to_csv('explained_variance_ratio.csv', index=False)
+    
     print("Principal Components:")
     print(pd.DataFrame(pca.components_, columns=df_subset.columns))
+    
+    # Get the top 3 features contributing to each principal component
+    top_features = []
+    for pc in pca.components_[:3]:
+        top_3 = df_subset.columns[np.argsort(np.abs(pc))[-3:]].tolist()
+        top_features.append(", ".join(top_3))
+    
+    # Visualize in 3D
+    fig = plt.figure(figsize=(10, 8))
+    ax = fig.add_subplot(111, projection='3d')
+    scatter = ax.scatter(pca_result[:, 0], pca_result[:, 1], pca_result[:, 2], c='r', marker='o')
+    ax.set_title("3D PCA of WikiWooW Dataset")
+    ax.set_xlabel(f"PC1 (CosineSimE1E2, InterestE1E2, DBRelE1E2)", fontsize=10)
+    ax.set_ylabel(f"PC2 (PopE1, Ground_Truth_bin, PopSumE1E2)", fontsize=10)
+    ax.set_zlabel(f"PC3 (Ground_Truth_bin, Ground_Truth_Float, PopEnt2)", fontsize=10)
+    
+    
+    # Adjusting tick label font size
+    ax.tick_params(axis='both', which='major', labelsize=8)
+    ax.tick_params(axis='both', which='minor', labelsize=8)
+    
+    # Save the figure
+    plt.savefig('pca_3d_plot.png', dpi=300, bbox_inches='tight')
+    print("3D PCA plot saved as 'pca_3d_plot.png'")
+    
+    plt.show()
 
+# Uncomment the following line to run the function
 pca("updated_data.csv")
+#pca("finaldataset.csv")
 
 ##ISOLATION FOREST
 
@@ -280,5 +319,62 @@ def MultnaiveBayes(dataset):
     print('\n')
     print(classification_report(y_test, nb_predict))
 
+from sklearn.preprocessing import LabelEncoder
 
+
+def calculate_shap_importance(input_file, output_file):
+    # Read CSV file
+    df = pd.read_csv(input_file, sep=';', encoding='ISO-8859-1')
+    feature_columns = ['ClickstreamEnt1Ent2', 'PopularityEnt1', 'PopularityEnt2', 'PopularityDiff', 'PopularitySum', 
+                       'CosineSimilarityEnt1Ent2', 'DBpediaSimilarityEnt1Ent2', 'DBpediaRelatednessEnt1Ent2', 
+                       'PalmaInterestingnessEnt1Ent2']
+    
+    X = df[feature_columns]
+    y = df['ground truth (threshold 0.8)']
+    # Print some information about the data
+    print(f"Number of samples: {len(X)}")
+    print(f"Number of features: {len(feature_columns)}")
+    print(f"Feature names: {feature_columns}")
+    print(f"Target distribution: {y.value_counts(normalize=True)}")
+    # Split the data
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    # Train Random Forest model
+    rf_model = RandomForestClassifier(n_estimators=100, random_state=42)
+    rf_model.fit(X_train, y_train)
+    explainer = shap.TreeExplainer(rf_model)
+    shap_values = explainer.shap_values(X_test)
+    # Print information about SHAP values
+    print(f"SHAP values shape: {np.array(shap_values).shape}")
+    # Plot SHAP values
+    plt.figure(figsize=(12, 8))
+    if isinstance(shap_values, list) and len(shap_values) > 1:
+        # For binary classification
+        shap.summary_plot(shap_values[1], X_test, plot_type="bar", show=False)
+        feature_importance = dict(zip(X.columns, np.abs(shap_values[1]).mean(0)))
+    else:
+        # For regression or single-output classification
+        shap.summary_plot(shap_values, X_test, plot_type="bar", show=False)
+        feature_importance = dict(zip(X.columns, np.abs(shap_values).mean(0)))
+    plt.title("SHAP Feature Importance")
+    plt.tight_layout()
+    plt.savefig(output_file)
+    plt.close()
+    print(f"SHAP feature importance plot saved as {output_file}")
+    # Ensure feature importance values are scalar
+    feature_importance = {k: np.mean(v) if isinstance(v, np.ndarray) else v for k, v in feature_importance.items()}
+    return feature_importance
+
+# Example usage
+input_file = "updated_data.csv"
+output_file = "shap_feature_importance.png"
+try:
+    importance = calculate_shap_importance(input_file, output_file)
+    # Print feature importance
+    for feature, importance_value in sorted(importance.items(), key=lambda x: x[1], reverse=True):
+        print(f"{feature}: {importance_value}")
+except Exception as e:
+    print(f"An error occurred: {str(e)}")
+    import traceback
+    traceback.print_exc()
+    print("Please check your input file and make sure it's formatted correctly.")
 

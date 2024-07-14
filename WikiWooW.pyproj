@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>200d8813-a978-4b0a-99c9-285aec441100</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SyReg.py</StartupFile>
+    <StartupFile>Test.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="clkStreamDataset.py" />
+    <Compile Include="intersectGroundTruth_kappa.py" />
+    <Compile Include="randomPickShuffle.py" />
     <Compile Include="SyReg.py" />
     <Compile Include="WikiWooW.py" />
     <Compile Include="Palma_Interestingness.py" />
@@ -30,11 +32,16 @@
     <Compile Include="tools.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="combined_manifest_fl.json" />
     <Content Include="finaldataset.csv" />
     <Content Include="finaldataset_Alexander.tsv" />
     <Content Include="finaldataset_Alexander_light_annotated_in.tsv" />
     <Content Include="finaldataset_Alexander_light_annotated_inout.tsv" />
-    <Content Include="ground_truth_interestingness.json" />
+    <Content Include="ground_truth_interestingness_valid.json" />
+    <Content Include="ground_truth_serendipity_valid_c.json" />
+    <Content Include="intersection_ground_truth_interestingness_valid.json" />
+    <Content Include="intersection_ground_truth_serendipity_valid_c.json" />
+    <Content Include="selected_entries.txt" />
     <Content Include="temp_datasetfinalAnubis.tsv" />
     <Content Include="temp_datasetintfinalclean.tsv" />
     <Content Include="temp_datasetintfinalclean.txt" />
