@@ -3,6 +3,7 @@ from datetime import datetime
 import numpy as np
 from prettytable import PrettyTable
 from sklearn.metrics import cohen_kappa_score
+import pandas as pd
 
 def read_manifest(file_path):
     with open(file_path, 'r') as file:
@@ -32,9 +33,10 @@ def correct_json_file(input_path, output_path):
         
 
 def calculate_fleiss_kappa(data1, data2):
-    n = len(data1)  
-    N = 2  
+    n = len(data1)  # number of items
+    N = 2  # assume 10 annotators per item, adjust as needed
 
+    # Create matrix where each row represents an item and each column represents a category
     matrix = np.zeros((n, 2))
     
     for i, (source, item1) in enumerate(data1.items()):
@@ -196,6 +198,55 @@ def intersection(file1_path, file2_path, output1_path, output2_path):
     print(f"Number of entries with differing confidence: {len(differing_entries)}")
     print(f"Output file 1 created: {output1_path}")
     print(f"Output file 2 created: {output2_path}")
+
+def csv_cohen_kappa(file_path, column1, column2):
+    """
+    Calculate Cohen's Kappa for two columns in a CSV file.
+    
+    Args:
+    file_path (str): Path to the CSV file
+    column1 (str): Name of the first column
+    column2 (str): Name of the second column
+    
+    Returns:
+    float: Cohen's Kappa score
+    """
+    try:
+        # Read the CSV file
+        df = pd.read_csv(file_path)
+        
+        # Check if both columns exist in the DataFrame
+        if column1 not in df.columns or column2 not in df.columns:
+            raise ValueError(f"One or both columns ({column1}, {column2}) not found in the CSV file.")
+        
+        # Extract the two columns
+        rater1 = df[column1]
+        rater2 = df[column2]
+        
+        # Calculate Cohen's Kappa
+        kappa = cohen_kappa_score(rater1, rater2)
+        
+        return kappa
+    
+    except FileNotFoundError:
+        print(f"Error: File '{file_path}' not found.")
+    except pd.errors.EmptyDataError:
+        print(f"Error: The file '{file_path}' is empty.")
+    except Exception as e:
+        print(f"An error occurred: {str(e)}")
+
+
+
+file_path = "updated_data.csv"
+column1 = "Int_Hum_Eval"
+column2 = "ground truth (threshold 0.8)"
+#Cohen's Kappa: -0.1038
+#Interpretation: Poor agreement   
+kappa_score = csv_cohen_kappa(file_path, column1, column2)
+    
+if kappa_score is not None:
+    print(f"Cohen's Kappa score: {kappa_score:.4f}")
+
 # Input file paths
 file1_path = 'ground_truth_interestingness_valid.json'
 file2_path = 'ground_truth_serendipity_valid_c.json'
