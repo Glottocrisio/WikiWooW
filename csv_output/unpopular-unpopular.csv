@@ -1,0 +1,121 @@
+Entity Couple;Annotator;1. Would you say these entities are closely related in any way?;2. Do you already *know* the nature of the relationship?;3. Would you *be curious* in learning more about this relationship - if there were one?;Result;Surprisal;Annotation;S_corrected_Annotation;First Question;Second Question
+Entity Pair 68: Universal_Studios_Beijing AND Lights!_Camera!_Action!_Hosted_by_Steven_Spielberg;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 68: Universal_Studios_Beijing AND Lights!_Camera!_Action!_Hosted_by_Steven_Spielberg;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 68: Universal_Studios_Beijing AND Lights!_Camera!_Action!_Hosted_by_Steven_Spielberg;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 69: Krabat_(novel) AND Otfried_Preußler;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 69: Krabat_(novel) AND Otfried_Preußler;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 69: Krabat_(novel) AND Otfried_Preußler;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 70: Hockey_One AND Blake_Govers;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 70: Hockey_One AND Blake_Govers;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 70: Hockey_One AND Blake_Govers;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 71: List_of_selective_high_schools_in_New_South_Wales AND North_Sydney_Boys_High_School;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 71: List_of_selective_high_schools_in_New_South_Wales AND North_Sydney_Boys_High_School;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 71: List_of_selective_high_schools_in_New_South_Wales AND North_Sydney_Boys_High_School;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 72: In_the_Meantime_(Spacehog_song) AND All_Day_(Girl_Talk_album);Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 72: In_the_Meantime_(Spacehog_song) AND All_Day_(Girl_Talk_album);Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 72: In_the_Meantime_(Spacehog_song) AND All_Day_(Girl_Talk_album);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 74: Legislative_Assembly_of_Macau AND Pro-democracy_camp_(Macau);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 74: Legislative_Assembly_of_Macau AND Pro-democracy_camp_(Macau);Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 74: Legislative_Assembly_of_Macau AND Pro-democracy_camp_(Macau);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 75: Rosencrantz_and_Guildenstern_(play) AND Rosencrantz_and_Guildenstern_Are_Dead;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 75: Rosencrantz_and_Guildenstern_(play) AND Rosencrantz_and_Guildenstern_Are_Dead;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 75: Rosencrantz_and_Guildenstern_(play) AND Rosencrantz_and_Guildenstern_Are_Dead;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 77: Steve_Francis AND 2002–03_Houston_Rockets_season;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 77: Steve_Francis AND 2002–03_Houston_Rockets_season;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 77: Steve_Francis AND 2002–03_Houston_Rockets_season;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 78: Alan_Pulido AND Rodolfo_Pizarro;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 78: Alan_Pulido AND Rodolfo_Pizarro;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 78: Alan_Pulido AND Rodolfo_Pizarro;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 79: Lois_Lowry AND Anastasia_Has_the_Answers;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 79: Lois_Lowry AND Anastasia_Has_the_Answers;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 79: Lois_Lowry AND Anastasia_Has_the_Answers;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 80: Transition_metal_NHC_complex AND IMes;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 80: Transition_metal_NHC_complex AND IMes;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 80: Transition_metal_NHC_complex AND IMes;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 81: Uganda_Airlines_(1976–2001) AND Entebbe_International_Airport;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 81: Uganda_Airlines_(1976–2001) AND Entebbe_International_Airport;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 81: Uganda_Airlines_(1976–2001) AND Entebbe_International_Airport;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 82: Gaseous_diffusion AND Clarendon_Laboratory;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 82: Gaseous_diffusion AND Clarendon_Laboratory;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 82: Gaseous_diffusion AND Clarendon_Laboratory;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 83: Jarman_Gap AND Rockfish_Gap;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 83: Jarman_Gap AND Rockfish_Gap;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 83: Jarman_Gap AND Rockfish_Gap;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 84: Armeniac_Theme AND Lesser_Armenia;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 84: Armeniac_Theme AND Lesser_Armenia;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 84: Armeniac_Theme AND Lesser_Armenia;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin';Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin';Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin';Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 87: Tim_Morse AND Scott_Thompson_(businessman);Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 87: Tim_Morse AND Scott_Thompson_(businessman);Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 87: Tim_Morse AND Scott_Thompson_(businessman);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 88: Montana_Resources_LLP AND The_Washington_Companies;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 88: Montana_Resources_LLP AND The_Washington_Companies;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 88: Montana_Resources_LLP AND The_Washington_Companies;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 89: Most_wanted_list AND ICE_Most_Wanted;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 89: Most_wanted_list AND ICE_Most_Wanted;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 89: Most_wanted_list AND ICE_Most_Wanted;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 90: Venus_(given_name) AND Venus_Ramey;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 90: Venus_(given_name) AND Venus_Ramey;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 90: Venus_(given_name) AND Venus_Ramey;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 91: Von_Mises_yield_criterion AND Henri_Tresca;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 91: Von_Mises_yield_criterion AND Henri_Tresca;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 91: Von_Mises_yield_criterion AND Henri_Tresca;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 92: Chatchai_Budprom AND PT_Prachuap_F.C.;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 92: Chatchai_Budprom AND PT_Prachuap_F.C.;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 92: Chatchai_Budprom AND PT_Prachuap_F.C.;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 93: Fury_Road_(2023) AND MLW_Fury_Road;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 93: Fury_Road_(2023) AND MLW_Fury_Road;Anonymous User 2;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 93: Fury_Road_(2023) AND MLW_Fury_Road;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 95: Fictional_religion AND Church_of_All_Worlds;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 95: Fictional_religion AND Church_of_All_Worlds;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 95: Fictional_religion AND Church_of_All_Worlds;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 96: Belarus–Poland_border AND Bia?owie?a;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 96: Belarus–Poland_border AND Bia?owie?a;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 96: Belarus–Poland_border AND Bia?owie?a;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 97: List_of_wars_involving_Estonia AND Soviet_occupation_of_the_Baltic_states_(1940);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 97: List_of_wars_involving_Estonia AND Soviet_occupation_of_the_Baltic_states_(1940);Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 97: List_of_wars_involving_Estonia AND Soviet_occupation_of_the_Baltic_states_(1940);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 98: Mary_Odili AND Rose_A._George;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 98: Mary_Odili AND Rose_A._George;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 98: Mary_Odili AND Rose_A._George;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 99: Socialist_realism AND Geliy_Korzhev;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 99: Socialist_realism AND Geliy_Korzhev;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 99: Socialist_realism AND Geliy_Korzhev;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 100: Y._Vijaya AND Minnale_(TV_series);Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 100: Y._Vijaya AND Minnale_(TV_series);Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 100: Y._Vijaya AND Minnale_(TV_series);Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 101: Uname AND List_of_POSIX_commands;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 101: Uname AND List_of_POSIX_commands;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 101: Uname AND List_of_POSIX_commands;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 102: Jewish_surname AND Mitrani;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 102: Jewish_surname AND Mitrani;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 102: Jewish_surname AND Mitrani;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 103: TI-85 AND TI-86;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 103: TI-85 AND TI-86;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 103: TI-85 AND TI-86;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 104: Union,_Kentucky AND Steve_Flesch;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 104: Union,_Kentucky AND Steve_Flesch;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 104: Union,_Kentucky AND Steve_Flesch;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 105: Vivek_Dhakar AND Gopal_Lal_Sharma;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 105: Vivek_Dhakar AND Gopal_Lal_Sharma;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 105: Vivek_Dhakar AND Gopal_Lal_Sharma;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 106: Krystal_Keith AND Show_Dog_Nashville;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 106: Krystal_Keith AND Show_Dog_Nashville;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 106: Krystal_Keith AND Show_Dog_Nashville;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 107: Membrillo AND Gustavia_superba;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 107: Membrillo AND Gustavia_superba;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 107: Membrillo AND Gustavia_superba;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0

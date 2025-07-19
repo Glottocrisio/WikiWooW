@@ -1,0 +1,121 @@
+Entity Couple;Annotator;1. Would you say these entities are closely related in any way?;2. Do you already *know* the nature of the relationship?;3. Would you *be curious* in learning more about this relationship - if there were one?;Result;Surprisal;Annotation;S_corrected_Annotation;First Question;Second Question
+Entity Pair 1: Somalia AND Silk_Road;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 1: Somalia AND Silk_Road;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 1: Somalia AND Silk_Road;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 3: Måneskin AND Aerosmith;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 3: Måneskin AND Aerosmith;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 3: Måneskin AND Aerosmith;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 4: Cologne_Cathedral AND Panther_tank;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 4: Cologne_Cathedral AND Panther_tank;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 4: Cologne_Cathedral AND Panther_tank;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 5: Peter_Gabriel AND Grammy_Awards;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 5: Peter_Gabriel AND Grammy_Awards;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 5: Peter_Gabriel AND Grammy_Awards;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 6: Jammu_and_Kashmir_(union_territory) AND Islam;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 6: Jammu_and_Kashmir_(union_territory) AND Islam;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 6: Jammu_and_Kashmir_(union_territory) AND Islam;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 7: Euthanasia AND Canada;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 7: Euthanasia AND Canada;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 7: Euthanasia AND Canada;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 8: Sicily AND Sicilian_Mafia;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 8: Sicily AND Sicilian_Mafia;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 8: Sicily AND Sicilian_Mafia;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 9: Jaws_(film) AND Library_of_Congress;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 9: Jaws_(film) AND Library_of_Congress;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 9: Jaws_(film) AND Library_of_Congress;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 10: Oak AND Proto-Indo-European_language;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 10: Oak AND Proto-Indo-European_language;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 10: Oak AND Proto-Indo-European_language;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 11: Bubble_tea AND Konjac;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 11: Bubble_tea AND Konjac;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 11: Bubble_tea AND Konjac;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 12: Brendon_Urie AND Attention_deficit_hyperactivity_disorder;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 12: Brendon_Urie AND Attention_deficit_hyperactivity_disorder;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 12: Brendon_Urie AND Attention_deficit_hyperactivity_disorder;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 13: Chris_Rea AND Ayrton_Senna;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 13: Chris_Rea AND Ayrton_Senna;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 13: Chris_Rea AND Ayrton_Senna;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 14: Portugal AND Sweden;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 14: Portugal AND Sweden;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 14: Portugal AND Sweden;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 16: India_national_football_team AND 2010_FIFA_World_Cup;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 16: India_national_football_team AND 2010_FIFA_World_Cup;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 16: India_national_football_team AND 2010_FIFA_World_Cup;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 17: Andaman_and_Nicobar_Islands AND Bengali_language;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 17: Andaman_and_Nicobar_Islands AND Bengali_language;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 17: Andaman_and_Nicobar_Islands AND Bengali_language;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 18: Muhamed_(horse) AND Genius;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 18: Muhamed_(horse) AND Genius;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 18: Muhamed_(horse) AND Genius;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 19: White_Paper_of_1939 AND 1936–1939_Arab_revolt_in_Palestine;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 19: White_Paper_of_1939 AND 1936–1939_Arab_revolt_in_Palestine;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 19: White_Paper_of_1939 AND 1936–1939_Arab_revolt_in_Palestine;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 21: When_Harry_Met_Sally... AND Billy_Crystal;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 21: When_Harry_Met_Sally... AND Billy_Crystal;Anonymous User 2;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 21: When_Harry_Met_Sally... AND Billy_Crystal;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 22: Glenne_Headly AND Psych;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 22: Glenne_Headly AND Psych;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 22: Glenne_Headly AND Psych;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 25: List_of_American_Dad!_characters AND Seth_MacFarlane;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 25: List_of_American_Dad!_characters AND Seth_MacFarlane;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 25: List_of_American_Dad!_characters AND Seth_MacFarlane;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 26: Nigeria AND Islam;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 26: Nigeria AND Islam;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 26: Nigeria AND Islam;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 27: Sam_Darnold AND Zach_Wilson;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 27: Sam_Darnold AND Zach_Wilson;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 27: Sam_Darnold AND Zach_Wilson;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 109: Lady_Gaga AND David_Bowie;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 109: Lady_Gaga AND David_Bowie;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 109: Lady_Gaga AND David_Bowie;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 111: Hum_Aapke_Hain_Koun..! AND List_of_highest-grossing_films_in_India;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 111: Hum_Aapke_Hain_Koun..! AND List_of_highest-grossing_films_in_India;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 111: Hum_Aapke_Hain_Koun..! AND List_of_highest-grossing_films_in_India;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 112: Mena_Suvari AND American_Horror_Story:_Apocalypse;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 112: Mena_Suvari AND American_Horror_Story:_Apocalypse;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 112: Mena_Suvari AND American_Horror_Story:_Apocalypse;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 113: Doctor_Strange_in_the_Multiverse_of_Madness AND Ms._Marvel_(miniseries);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 113: Doctor_Strange_in_the_Multiverse_of_Madness AND Ms._Marvel_(miniseries);Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 113: Doctor_Strange_in_the_Multiverse_of_Madness AND Ms._Marvel_(miniseries);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 115: Bhool_Bhulaiyaa_2 AND Kiara_Advani;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 115: Bhool_Bhulaiyaa_2 AND Kiara_Advani;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 115: Bhool_Bhulaiyaa_2 AND Kiara_Advani;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 116: Wraith_(Yuri_Watanabe) AND Tombstone_(character);Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 116: Wraith_(Yuri_Watanabe) AND Tombstone_(character);Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 116: Wraith_(Yuri_Watanabe) AND Tombstone_(character);Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 117: Venom_(2018_film) AND Matthias_Schoenaerts;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 117: Venom_(2018_film) AND Matthias_Schoenaerts;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 117: Venom_(2018_film) AND Matthias_Schoenaerts;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 118: Brent_Venables AND Oklahoma_Sooners_football;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 118: Brent_Venables AND Oklahoma_Sooners_football;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 118: Brent_Venables AND Oklahoma_Sooners_football;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 119: Rinku_Singh_(cricketer) AND Shreyas_Iyer;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 119: Rinku_Singh_(cricketer) AND Shreyas_Iyer;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 119: Rinku_Singh_(cricketer) AND Shreyas_Iyer;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 120: Crooked_House_(film) AND Gemma_Arterton;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 120: Crooked_House_(film) AND Gemma_Arterton;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 120: Crooked_House_(film) AND Gemma_Arterton;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1

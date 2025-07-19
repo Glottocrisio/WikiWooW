@@ -1,0 +1,121 @@
+Entity Couple;Annotator;1. Would you say these entities are closely related in any way?;2. Do you already *know* the nature of the relationship?;3. Would you *be curious* in learning more about this relationship - if there were one?;Result;Surprisal;Annotation;S_corrected_Annotation;First Question;Second Question
+Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 29: Dat_Nguyen AND Dallas_Cowboys;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 29: Dat_Nguyen AND Dallas_Cowboys;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 29: Dat_Nguyen AND Dallas_Cowboys;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 30: Romelu_Lukaku AND Goal_celebration;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 30: Romelu_Lukaku AND Goal_celebration;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 30: Romelu_Lukaku AND Goal_celebration;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 31: Cadbury AND Chocolate_bar;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 31: Cadbury AND Chocolate_bar;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 31: Cadbury AND Chocolate_bar;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 32: Baden-Baden AND Kai_Whittaker;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 32: Baden-Baden AND Kai_Whittaker;Anonymous User 2;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 32: Baden-Baden AND Kai_Whittaker;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 33: Curtis_Martin AND Bill_Parcells;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 33: Curtis_Martin AND Bill_Parcells;Anonymous User 2;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 33: Curtis_Martin AND Bill_Parcells;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 35: The_Dawn-Breakers AND Bahá?í_Faith;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 35: The_Dawn-Breakers AND Bahá?í_Faith;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 35: The_Dawn-Breakers AND Bahá?í_Faith;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 36: Boots_Opticians AND Boots_(company);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 36: Boots_Opticians AND Boots_(company);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 36: Boots_Opticians AND Boots_(company);Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 37: ABS-CBN AND ABS-CBN_(disambiguation);Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 37: ABS-CBN AND ABS-CBN_(disambiguation);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 37: ABS-CBN AND ABS-CBN_(disambiguation);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 38: Ron_DeSantis AND 2014_United_States_House_of_Representatives_elections_in_Florida;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 38: Ron_DeSantis AND 2014_United_States_House_of_Representatives_elections_in_Florida;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 38: Ron_DeSantis AND 2014_United_States_House_of_Representatives_elections_in_Florida;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 39: Canine_reproduction AND Penis_captivus;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 39: Canine_reproduction AND Penis_captivus;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 39: Canine_reproduction AND Penis_captivus;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 40: Church_of_the_Holy_Sepulchre AND Christian_tradition;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 40: Church_of_the_Holy_Sepulchre AND Christian_tradition;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 40: Church_of_the_Holy_Sepulchre AND Christian_tradition;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 41: Stan_Lee AND Just_Imagine...;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 41: Stan_Lee AND Just_Imagine...;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 41: Stan_Lee AND Just_Imagine...;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 42: Puget_Sound_region AND Mount_Rainier;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 42: Puget_Sound_region AND Mount_Rainier;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 42: Puget_Sound_region AND Mount_Rainier;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 44: Chor_Machaaye_Shor AND Bipasha_Basu;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 44: Chor_Machaaye_Shor AND Bipasha_Basu;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 44: Chor_Machaaye_Shor AND Bipasha_Basu;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 45: Akshay_Kumar_filmography AND Apna_Bombay_Talkies;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 45: Akshay_Kumar_filmography AND Apna_Bombay_Talkies;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 45: Akshay_Kumar_filmography AND Apna_Bombay_Talkies;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 46: Kevin_Warren AND Detroit_Lions;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 46: Kevin_Warren AND Detroit_Lions;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 46: Kevin_Warren AND Detroit_Lions;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 47: Decathlon AND Mykola_Avilov;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 47: Decathlon AND Mykola_Avilov;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 47: Decathlon AND Mykola_Avilov;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 48: Flip-flop_(electronics) AND Signal;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 48: Flip-flop_(electronics) AND Signal;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 48: Flip-flop_(electronics) AND Signal;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 49: Pakistan AND Tomb_of_Shah_Rukn-e-Alam;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 49: Pakistan AND Tomb_of_Shah_Rukn-e-Alam;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 49: Pakistan AND Tomb_of_Shah_Rukn-e-Alam;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 50: It's_My_Party AND Amy_Winehouse;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 50: It's_My_Party AND Amy_Winehouse;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 50: It's_My_Party AND Amy_Winehouse;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 51: Stevie_Ray_Vaughan AND Soul_to_Soul_(album);Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 51: Stevie_Ray_Vaughan AND Soul_to_Soul_(album);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 51: Stevie_Ray_Vaughan AND Soul_to_Soul_(album);Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 53: Alphabet_Inc. AND Steve_Stoute;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 53: Alphabet_Inc. AND Steve_Stoute;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 53: Alphabet_Inc. AND Steve_Stoute;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 54: Triple_Canopy AND 75th_Ranger_Regiment;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 54: Triple_Canopy AND 75th_Ranger_Regiment;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 54: Triple_Canopy AND 75th_Ranger_Regiment;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 55: Unemployment_in_Spain AND Extremadura;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 55: Unemployment_in_Spain AND Extremadura;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 55: Unemployment_in_Spain AND Extremadura;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 56: Wuji_(philosophy) AND Infinity;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 56: Wuji_(philosophy) AND Infinity;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 56: Wuji_(philosophy) AND Infinity;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 57: Douglas_A-1_Skyraider AND Operation_Pierce_Arrow;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 57: Douglas_A-1_Skyraider AND Operation_Pierce_Arrow;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 57: Douglas_A-1_Skyraider AND Operation_Pierce_Arrow;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 58: I_Lost_My_Body AND George_Wendt;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 58: I_Lost_My_Body AND George_Wendt;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 58: I_Lost_My_Body AND George_Wendt;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 59: Vanishing_Vision AND X_Japan;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 59: Vanishing_Vision AND X_Japan;Anonymous User 2;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 59: Vanishing_Vision AND X_Japan;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0
+Entity Pair 60: British_Leeward_Islands AND Montserrat;Anonymous User 1;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 60: British_Leeward_Islands AND Montserrat;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 60: British_Leeward_Islands AND Montserrat;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 61: Boulet_Brothers AND Drag_queen;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 61: Boulet_Brothers AND Drag_queen;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 61: Boulet_Brothers AND Drag_queen;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 62: Septimius_Severus AND Battle_of_Issus_(194);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 62: Septimius_Severus AND Battle_of_Issus_(194);Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0,5;0,7;0;0
+Entity Pair 62: Septimius_Severus AND Battle_of_Issus_(194);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 63: Naval_ensign AND Flag;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 63: Naval_ensign AND Flag;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 63: Naval_ensign AND Flag;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 64: University_of_Sunderland AND Tony_Scott;Anonymous User 1;No;No;DOES NOT APPLY;Too obvious;Unexpected;0;0,2;0;0
+Entity Pair 64: University_of_Sunderland AND Tony_Scott;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 64: University_of_Sunderland AND Tony_Scott;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 65: Paul_Silas AND Cardiac_arrest;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1;1,2;0;0
+Entity Pair 65: Paul_Silas AND Cardiac_arrest;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 65: Paul_Silas AND Cardiac_arrest;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 66: Leather_Jackets_(film) AND D._B._Sweeney;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1;1;1;0
+Entity Pair 66: Leather_Jackets_(film) AND D._B._Sweeney;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 66: Leather_Jackets_(film) AND D._B._Sweeney;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 67: Node.js AND Wakanda_(software);Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0,5;0,5;1;0
+Entity Pair 67: Node.js AND Wakanda_(software);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0;0;1;1
+Entity Pair 67: Node.js AND Wakanda_(software);Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0;0;1;0

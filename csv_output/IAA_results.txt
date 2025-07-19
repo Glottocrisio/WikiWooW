@@ -1,0 +1,40 @@
+1. ICC calculation error: module 'statsmodels.stats.inter_rater' has no attribute 'icc'
+
+2. Fleiss' Kappa: 0.3770
+   Categories: [0.0, 0.5, 1.0]
+
+3. Pairwise Cohen's Kappa:
+   Anonymous User 1 vs Anonymous User 2: Error - continuous is not supported
+   Anonymous User 1 vs Anonymous User 3: Error - continuous is not supported
+   Anonymous User 2 vs Anonymous User 3: Error - continuous is not supported
+
+4. Cronbach's Alpha: 0.1381
+
+5. Mean Squared Error between annotators:
+   Anonymous User 1 vs Anonymous User 2: 0.3563
+   Anonymous User 1 vs Anonymous User 3: 0.3563
+   Anonymous User 2 vs Anonymous User 3: 0.3375
+   Average MSE: 0.3500
+
+6. Percent Agreement (exact match):
+   Anonymous User 1 vs Anonymous User 2: 0.4250 (51/120 matches)
+   Anonymous User 1 vs Anonymous User 3: 0.4000 (48/120 matches)
+   Anonymous User 2 vs Anonymous User 3: 0.4750 (57/120 matches)
+   Average Percent Agreement: 0.4333
+
+Summary of Interannotator Agreement Metrics:
+- Fleiss_Kappa: 0.3770
+- Cronbachs_Alpha: 0.1381
+- Average_MSE: 0.3500
+- Average_Percent_Agreement: 0.4333
+
+
+Total number of entries: 360
+Number of annotators: 3
+Number of entity pairs: 120
+Using 'Annotation' column for calculations
+Pivot table shape: (120, 3)
+Reliability data shape: (120, 3)
+
+Krippendorff's Alpha: 0.0920
+Interpretation: Slight agreement

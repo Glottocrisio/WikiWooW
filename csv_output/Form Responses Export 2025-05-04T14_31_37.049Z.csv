@@ -1,0 +1,178 @@
+Entity Couple,Annotator,1. Would you say these entities are closely related in any way?,2. Do you exactly know how they are connected?,3. Do you believe most people would be curious to discover more about their connection - if there were one?,Result,Surprisal,Annotation,S_corrected_Annotation
+Entity Pair 1: Death_Star AND Lightsaber,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 1: Death_Star AND Lightsaber,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 1: Death_Star AND Lightsaber,Anonymous User 3,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 2: 2012_NFL_season AND DeMeco_Ryans,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 2: 2012_NFL_season AND DeMeco_Ryans,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 2: 2012_NFL_season AND DeMeco_Ryans,Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 3: RuPaul's_Drag_Race_UK_(series_4) AND Surrey,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 3: RuPaul's_Drag_Race_UK_(series_4) AND Surrey,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 3: RuPaul's_Drag_Race_UK_(series_4) AND Surrey,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 4: Ambergris AND Cephalopod,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 4: Ambergris AND Cephalopod,Anonymous User 2,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 4: Ambergris AND Cephalopod,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 5: Marc_Warren AND List_of_Agatha_Christie's_Poirot_episodes,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 5: Marc_Warren AND List_of_Agatha_Christie's_Poirot_episodes,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 5: Marc_Warren AND List_of_Agatha_Christie's_Poirot_episodes,Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 6: Nine_(Blink-182_album) AND Mark_Hoppus,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 6: Nine_(Blink-182_album) AND Mark_Hoppus,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 6: Nine_(Blink-182_album) AND Mark_Hoppus,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 7: Gynaecology AND Hysterectomy,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 7: Gynaecology AND Hysterectomy,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 7: Gynaecology AND Hysterectomy,Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 8: Fortification AND Battle_of_Kursk,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 8: Fortification AND Battle_of_Kursk,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 8: Fortification AND Battle_of_Kursk,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 9: Kronecker_delta AND Nyquist-Shannon_sampling_theorem,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 9: Kronecker_delta AND Nyquist-Shannon_sampling_theorem,Anonymous User 2,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 9: Kronecker_delta AND Nyquist-Shannon_sampling_theorem,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 10: Tyson_Fury_vs_Francis_Ngannou AND Joseph_Parker,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 10: Tyson_Fury_vs_Francis_Ngannou AND Joseph_Parker,Anonymous User 2,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 10: Tyson_Fury_vs_Francis_Ngannou AND Joseph_Parker,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 11: Night_sky AND Northern_Hemisphere,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 11: Night_sky AND Northern_Hemisphere,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 11: Night_sky AND Northern_Hemisphere,Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 12: List_of_Scott_Pilgrim_characters AND Beck,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 12: List_of_Scott_Pilgrim_characters AND Beck,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 12: List_of_Scott_Pilgrim_characters AND Beck,Anonymous User 3,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 13: Irving_Azoff AND Urban_Cowboy,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 13: Irving_Azoff AND Urban_Cowboy,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 13: Irving_Azoff AND Urban_Cowboy,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 14: John,_King_of_England AND Dysentery",Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+"Entity Pair 14: John,_King_of_England AND Dysentery",Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+"Entity Pair 14: John,_King_of_England AND Dysentery",Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 15: Irish_Americans AND Plantation_of_Ulster,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 15: Irish_Americans AND Plantation_of_Ulster,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 15: Irish_Americans AND Plantation_of_Ulster,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 16: Don_DeFore AND Pierce_Brothers_Westwood_Village_Memorial_Park_and_Mortuary,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 16: Don_DeFore AND Pierce_Brothers_Westwood_Village_Memorial_Park_and_Mortuary,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 16: Don_DeFore AND Pierce_Brothers_Westwood_Village_Memorial_Park_and_Mortuary,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 17: Angels_in_the_Outfield_(1994_film) AND Toronto_Blue_Jays,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 17: Angels_in_the_Outfield_(1994_film) AND Toronto_Blue_Jays,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 17: Angels_in_the_Outfield_(1994_film) AND Toronto_Blue_Jays,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 18: Charles_III AND Edward_VII,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 18: Charles_III AND Edward_VII,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 18: Charles_III AND Edward_VII,Anonymous User 3,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 19: John_Slattery AND Spotlight_(film),Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 19: John_Slattery AND Spotlight_(film),Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 19: John_Slattery AND Spotlight_(film),Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 20: Michele_Morrone AND Medici_(TV_series),Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 20: Michele_Morrone AND Medici_(TV_series),Anonymous User 2,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 20: Michele_Morrone AND Medici_(TV_series),Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 21: Pallava_dynasty AND Narasimhavarman_I,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 21: Pallava_dynasty AND Narasimhavarman_I,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 21: Pallava_dynasty AND Narasimhavarman_I,Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 22: 2018_FIFA_World_Cup_squads AND Michael_Krohn-Dehli,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 22: 2018_FIFA_World_Cup_squads AND Michael_Krohn-Dehli,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 22: 2018_FIFA_World_Cup_squads AND Michael_Krohn-Dehli,Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+"Entity Pair 23: Sagaponack,_New_York AND Kurt_Vonnegut",Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 23: Sagaponack,_New_York AND Kurt_Vonnegut",Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+"Entity Pair 23: Sagaponack,_New_York AND Kurt_Vonnegut",Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 24: Eastern_Front_(World_War_II) AND Aufbau_Ost_(1940),Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 24: Eastern_Front_(World_War_II) AND Aufbau_Ost_(1940),Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 24: Eastern_Front_(World_War_II) AND Aufbau_Ost_(1940),Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 25: First_Barbary_War AND Gunboat,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 25: First_Barbary_War AND Gunboat,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 25: First_Barbary_War AND Gunboat,Anonymous User 3,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 26: Coast_Guard_Distinguished_Service_Medal AND Silver_Star,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 26: Coast_Guard_Distinguished_Service_Medal AND Silver_Star,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 26: Coast_Guard_Distinguished_Service_Medal AND Silver_Star,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 27: Jack_Johnson_vs._James_J._Jeffries AND Jack_London,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 27: Jack_Johnson_vs._James_J._Jeffries AND Jack_London,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 27: Jack_Johnson_vs._James_J._Jeffries AND Jack_London,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 28: November_11 AND 1975_Australian_federal_election,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 28: November_11 AND 1975_Australian_federal_election,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 28: November_11 AND 1975_Australian_federal_election,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 29: Dixiana_(film) AND Bill_Robinson,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 29: Dixiana_(film) AND Bill_Robinson,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 29: Dixiana_(film) AND Bill_Robinson,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 30: Neoclassical_architecture AND Imperial_Museum_of_Brazil,Anonymous User 1,Yes,Yes,No,Irrelevant,Expected,0.5,0.5
+Entity Pair 30: Neoclassical_architecture AND Imperial_Museum_of_Brazil,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 30: Neoclassical_architecture AND Imperial_Museum_of_Brazil,Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 31: Juan_Almeida_Bosque AND Cuban_Revolution,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 31: Juan_Almeida_Bosque AND Cuban_Revolution,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 31: Juan_Almeida_Bosque AND Cuban_Revolution,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 32: Space_Shuttle_Discovery AND STS-60,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 32: Space_Shuttle_Discovery AND STS-60,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 32: Space_Shuttle_Discovery AND STS-60,Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 33: Runet AND Yandex,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 33: Runet AND Yandex,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 33: Runet AND Yandex,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 34: Roanoke,_Virginia AND Salvage_Dawgs",Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 34: Roanoke,_Virginia AND Salvage_Dawgs",Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+"Entity Pair 34: Roanoke,_Virginia AND Salvage_Dawgs",Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 35: John,_King_of_England AND Dysentery",Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+"Entity Pair 35: John,_King_of_England AND Dysentery",Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+"Entity Pair 35: John,_King_of_England AND Dysentery",Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 36: Irish_Americans AND Plantation_of_Ulster,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 36: Irish_Americans AND Plantation_of_Ulster,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 36: Irish_Americans AND Plantation_of_Ulster,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 37: Tehran_Conference AND Kresy,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 37: Tehran_Conference AND Kresy,Anonymous User 2,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 37: Tehran_Conference AND Kresy,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 38: Jaideep_Ahlawat AND Meeruthiya_Gangsters,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 38: Jaideep_Ahlawat AND Meeruthiya_Gangsters,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 38: Jaideep_Ahlawat AND Meeruthiya_Gangsters,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 39: Bertrand_Dawson,_1st_Viscount_Dawson_of_Penn AND Order_of_St_Michael_and_St_George",Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+"Entity Pair 39: Bertrand_Dawson,_1st_Viscount_Dawson_of_Penn AND Order_of_St_Michael_and_St_George",Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+"Entity Pair 39: Bertrand_Dawson,_1st_Viscount_Dawson_of_Penn AND Order_of_St_Michael_and_St_George",Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 40: Scottish_National_Gallery AND Gian_Lorenzo_Bernini,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 40: Scottish_National_Gallery AND Gian_Lorenzo_Bernini,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 40: Scottish_National_Gallery AND Gian_Lorenzo_Bernini,Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 41: Renita_J._Weems AND Lyman_Beecher,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 41: Renita_J._Weems AND Lyman_Beecher,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 41: Renita_J._Weems AND Lyman_Beecher,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 42: Yana_Santos AND Karol_Rosa,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 42: Yana_Santos AND Karol_Rosa,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 42: Yana_Santos AND Karol_Rosa,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 43: Mathew_Charles_Lamb AND Rhodesian_Light_Infantry,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 43: Mathew_Charles_Lamb AND Rhodesian_Light_Infantry,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 43: Mathew_Charles_Lamb AND Rhodesian_Light_Infantry,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 44: Syntax-directed_translation AND Compiler-compiler,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 44: Syntax-directed_translation AND Compiler-compiler,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 44: Syntax-directed_translation AND Compiler-compiler,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 45: Alexander_the_Great_(1956_film) AND Cleopatra_Eurydice_of_Macedon,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 45: Alexander_the_Great_(1956_film) AND Cleopatra_Eurydice_of_Macedon,Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 45: Alexander_the_Great_(1956_film) AND Cleopatra_Eurydice_of_Macedon,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 46: Citheronia AND Citheronia_lobesis,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 46: Citheronia AND Citheronia_lobesis,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 46: Citheronia AND Citheronia_lobesis,Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 47: Royal_Monastery_of_San_Juan_de_la_Peña AND Valencia_Cathedral,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 47: Royal_Monastery_of_San_Juan_de_la_Peña AND Valencia_Cathedral,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 47: Royal_Monastery_of_San_Juan_de_la_Peña AND Valencia_Cathedral,Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 48: Bifrons_(demon) AND Leraje,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 48: Bifrons_(demon) AND Leraje,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 48: Bifrons_(demon) AND Leraje,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 49: Robinson's_Arch AND Edward_Robinson_(scholar),Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 49: Robinson's_Arch AND Edward_Robinson_(scholar),Anonymous User 2,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 49: Robinson's_Arch AND Edward_Robinson_(scholar),Anonymous User 3,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 50: General_covariance AND Tensor_field,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 50: General_covariance AND Tensor_field,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 50: General_covariance AND Tensor_field,Anonymous User 3,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+"Entity Pair 51: Gallatin_County,_Montana AND Manhattan,_Montana",Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+"Entity Pair 51: Gallatin_County,_Montana AND Manhattan,_Montana",Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+"Entity Pair 51: Gallatin_County,_Montana AND Manhattan,_Montana",Anonymous User 3,Yes,Does not apply,No,Irrelevant,Expected,0.5,0.5
+Entity Pair 52: John_Bailey_(American_actor) AND New_Wave_Hookers,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 52: John_Bailey_(American_actor) AND New_Wave_Hookers,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 52: John_Bailey_(American_actor) AND New_Wave_Hookers,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 53: Eystein_Glumra AND Rognvald_Eysteinsson,Anonymous User 1,Yes,Yes,Does not apply,Too obvious,Expected,0,0
+Entity Pair 53: Eystein_Glumra AND Rognvald_Eysteinsson,Anonymous User 2,Yes,No,No,Irrelevant,Mildly Unexpected,0.5,0.5
+Entity Pair 53: Eystein_Glumra AND Rognvald_Eysteinsson,Anonymous User 3,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 54: Imperial_Capital AND City_National_Bank_(California),Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 54: Imperial_Capital AND City_National_Bank_(California),Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 54: Imperial_Capital AND City_National_Bank_(California),Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 55: Kazuyo_Sejima AND Towada_Art_Center,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 55: Kazuyo_Sejima AND Towada_Art_Center,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 55: Kazuyo_Sejima AND Towada_Art_Center,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 56: Niue_dollar AND Cook_Islands_dollar,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 56: Niue_dollar AND Cook_Islands_dollar,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 56: Niue_dollar AND Cook_Islands_dollar,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 57: Thaler AND German_Orthographic_Conference_of_1901,Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 57: Thaler AND German_Orthographic_Conference_of_1901,Anonymous User 2,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 57: Thaler AND German_Orthographic_Conference_of_1901,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 58: Glenn_Dorsey AND Kyle_Williams_(defensive_tackle),Anonymous User 1,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 58: Glenn_Dorsey AND Kyle_Williams_(defensive_tackle),Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 58: Glenn_Dorsey AND Kyle_Williams_(defensive_tackle),Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7
+Entity Pair 59: Brett_Sperry AND Louis_Castle,Anonymous User 1,No,Does not apply,Yes,Serendipitous,Unexpected,1,1.2
+Entity Pair 59: Brett_Sperry AND Louis_Castle,Anonymous User 2,Yes,No,Yes,Serendipitous,Mildly Unexpected,1,1
+Entity Pair 59: Brett_Sperry AND Louis_Castle,Anonymous User 3,No,Does not apply,No,Irrelevant,Unexpected,0.5,0.7

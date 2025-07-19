@@ -1,0 +1,85 @@
+Entity Couple;Annotator;1. Would you say these entities are closely related in any way?;2. Do you already *know* the nature of the relationship?;3. Would you *be curious* in learning more about this relationship - if there were one?;Result;Surprisal;Annotation;S_corrected_Annotation
+Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 3: Måneskin AND Aerosmith;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 3: Måneskin AND Aerosmith;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 3: Måneskin AND Aerosmith;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 8: Sicily AND Sicilian_Mafia;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 8: Sicily AND Sicilian_Mafia;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 8: Sicily AND Sicilian_Mafia;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 9: Jaws_(film) AND Library_of_Congress;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 9: Jaws_(film) AND Library_of_Congress;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 9: Jaws_(film) AND Library_of_Congress;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's;Anonymous User 1;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1.0;1
+Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0.0;0
+Entity Pair 33: Curtis_Martin AND Bill_Parcells;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0.5;0,5
+Entity Pair 33: Curtis_Martin AND Bill_Parcells;Anonymous User 2;Yes;No;No;Irrelevant;Mildly Unexpected;0.5;0,5
+Entity Pair 33: Curtis_Martin AND Bill_Parcells;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0.5;0,7
+Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff;Anonymous User 1;Yes;No;No;Irrelevant;Mildly Unexpected;0.5;0,5
+Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff;Anonymous User 2;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0.5;0,7
+Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff;Anonymous User 3;No;DOES NOT APPLY;No;Irrelevant;Unexpected;0.5;0,7
+Entity Pair 35: The_Dawn-Breakers AND Baháʼí_Faith;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1.0;1
+Entity Pair 35: The_Dawn-Breakers AND Baháʼí_Faith;Anonymous User 2;Yes;No;Yes;Serendipitous;Mildly Unexpected;1.0;1
+Entity Pair 35: The_Dawn-Breakers AND Baháʼí_Faith;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 48: Flip-flop_(electronics) AND Signal;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 48: Flip-flop_(electronics) AND Signal;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 48: Flip-flop_(electronics) AND Signal;Anonymous User 3;Yes;No;DOES NOT APPLY;Too obvious;Mildly Unexpected;0.0;0
+Entity Pair 50: It's_My_Party AND Amy_Winehouse;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 50: It's_My_Party AND Amy_Winehouse;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 50: It's_My_Party AND Amy_Winehouse;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 63: Naval_ensign AND Flag;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 63: Naval_ensign AND Flag;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 63: Naval_ensign AND Flag;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 69: Krabat_(novel) AND Otfried_Preußler;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 69: Krabat_(novel) AND Otfried_Preußler;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 69: Krabat_(novel) AND Otfried_Preußler;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin';Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin';Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin';Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 90: Venus_(given_name) AND Venus_Ramey;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 90: Venus_(given_name) AND Venus_Ramey;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 90: Venus_(given_name) AND Venus_Ramey;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?;Anonymous User 1;Yes;No;Yes;Serendipitous;Mildly Unexpected;1.0;1
+Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?;Anonymous User 2;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?;Anonymous User 3;No;DOES NOT APPLY;Yes;Serendipitous;Unexpected;1.0;1,2
+Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 109: Lady_Gaga AND David_Bowie;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 109: Lady_Gaga AND David_Bowie;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 109: Lady_Gaga AND David_Bowie;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film);Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film);Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film);Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray;Anonymous User 1;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray;Anonymous User 2;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
+Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray;Anonymous User 3;Yes;Yes;DOES NOT APPLY;Too obvious;Expected;0.0;0
