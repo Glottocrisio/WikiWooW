@@ -1,0 +1,361 @@
+"Entity Couple";"Annotator";"1. Would you say these entities are closely related in any way?";"2. Do you already *know* the nature of the relationship?";"3. Would you *be curious* in learning more about this relationship - if there were one?";"Result";"Surprisal";"Annotation";"S_corrected_Annotation";"First Question";"Second Question"
+"Entity Pair 1: Somalia AND Silk_Road";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 1: Somalia AND Silk_Road";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 1: Somalia AND Silk_Road";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 2: List_of_Indian_film_actresses AND Bipasha_Basu";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 3: Måneskin AND Aerosmith";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 3: Måneskin AND Aerosmith";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 3: Måneskin AND Aerosmith";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 4: Cologne_Cathedral AND Panther_tank";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 4: Cologne_Cathedral AND Panther_tank";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 4: Cologne_Cathedral AND Panther_tank";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 5: Peter_Gabriel AND Grammy_Awards";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 5: Peter_Gabriel AND Grammy_Awards";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 5: Peter_Gabriel AND Grammy_Awards";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 6: Jammu_and_Kashmir_(union_territory) AND Islam";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 6: Jammu_and_Kashmir_(union_territory) AND Islam";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 6: Jammu_and_Kashmir_(union_territory) AND Islam";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 7: Euthanasia AND Canada";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 7: Euthanasia AND Canada";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 7: Euthanasia AND Canada";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 8: Sicily AND Sicilian_Mafia";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 8: Sicily AND Sicilian_Mafia";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 8: Sicily AND Sicilian_Mafia";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 9: Jaws_(film) AND Library_of_Congress";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 9: Jaws_(film) AND Library_of_Congress";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 9: Jaws_(film) AND Library_of_Congress";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 10: Oak AND Proto-Indo-European_language";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 10: Oak AND Proto-Indo-European_language";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 10: Oak AND Proto-Indo-European_language";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 11: Bubble_tea AND Konjac";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 11: Bubble_tea AND Konjac";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 11: Bubble_tea AND Konjac";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 12: Brendon_Urie AND Attention_deficit_hyperactivity_disorder";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 12: Brendon_Urie AND Attention_deficit_hyperactivity_disorder";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 12: Brendon_Urie AND Attention_deficit_hyperactivity_disorder";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 13: Chris_Rea AND Ayrton_Senna";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 13: Chris_Rea AND Ayrton_Senna";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 13: Chris_Rea AND Ayrton_Senna";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 14: Portugal AND Sweden";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 14: Portugal AND Sweden";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 14: Portugal AND Sweden";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 15: Darth_Vader AND Star_Wars:_Episode_I_–_The_Phantom_Menace";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 16: India_national_football_team AND 2010_FIFA_World_Cup";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 16: India_national_football_team AND 2010_FIFA_World_Cup";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 16: India_national_football_team AND 2010_FIFA_World_Cup";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 17: Andaman_and_Nicobar_Islands AND Bengali_language";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 17: Andaman_and_Nicobar_Islands AND Bengali_language";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 17: Andaman_and_Nicobar_Islands AND Bengali_language";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 18: Muhamed_(horse) AND Genius";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 18: Muhamed_(horse) AND Genius";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 18: Muhamed_(horse) AND Genius";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 19: White_Paper_of_1939 AND 1936–1939_Arab_revolt_in_Palestine";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 19: White_Paper_of_1939 AND 1936–1939_Arab_revolt_in_Palestine";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 19: White_Paper_of_1939 AND 1936–1939_Arab_revolt_in_Palestine";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 20: Sleeping_Beauty_(1959_film) AND Walt_Disney";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 21: When_Harry_Met_Sally... AND Billy_Crystal";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 21: When_Harry_Met_Sally... AND Billy_Crystal";"Anonymous User 2";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 21: When_Harry_Met_Sally... AND Billy_Crystal";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 22: Glenne_Headly AND Psych";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 22: Glenne_Headly AND Psych";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 22: Glenne_Headly AND Psych";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 23: Robert_F._Kennedy AND John_F._Kennedy_Jr.";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 24: The_Devil_Is_a_Part-Timer! AND McDonald's";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 25: List_of_American_Dad!_characters AND Seth_MacFarlane";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 25: List_of_American_Dad!_characters AND Seth_MacFarlane";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 25: List_of_American_Dad!_characters AND Seth_MacFarlane";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 26: Nigeria AND Islam";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 26: Nigeria AND Islam";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 26: Nigeria AND Islam";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 27: Sam_Darnold AND Zach_Wilson";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 27: Sam_Darnold AND Zach_Wilson";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 27: Sam_Darnold AND Zach_Wilson";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 28: List_of_Big_Five_Academy_Award_winners_and_nominees AND Academy_Award_for_Best_Actress";"Anonymous User 3";"Yes";"No";"Yes";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 29: Dat_Nguyen AND Dallas_Cowboys";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 29: Dat_Nguyen AND Dallas_Cowboys";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 29: Dat_Nguyen AND Dallas_Cowboys";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 30: Romelu_Lukaku AND Goal_celebration";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 30: Romelu_Lukaku AND Goal_celebration";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 30: Romelu_Lukaku AND Goal_celebration";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 31: Cadbury AND Chocolate_bar";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 31: Cadbury AND Chocolate_bar";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 31: Cadbury AND Chocolate_bar";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 32: Baden-Baden AND Kai_Whittaker";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 32: Baden-Baden AND Kai_Whittaker";"Anonymous User 2";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 32: Baden-Baden AND Kai_Whittaker";"Anonymous User 3";"Yes";"No";"Yes";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 33: Curtis_Martin AND Bill_Parcells";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 33: Curtis_Martin AND Bill_Parcells";"Anonymous User 2";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 33: Curtis_Martin AND Bill_Parcells";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 34: Janice_Dickinson AND Veruschka_von_Lehndorff";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 35: The_Dawn-Breakers AND Baháʼí_Faith";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 35: The_Dawn-Breakers AND Baháʼí_Faith";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 35: The_Dawn-Breakers AND Baháʼí_Faith";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 36: Boots_Opticians AND Boots_(company)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 36: Boots_Opticians AND Boots_(company)";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 36: Boots_Opticians AND Boots_(company)";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 37: ABS-CBN AND ABS-CBN_(disambiguation)";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 37: ABS-CBN AND ABS-CBN_(disambiguation)";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 37: ABS-CBN AND ABS-CBN_(disambiguation)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 38: Ron_DeSantis AND 2014_United_States_House_of_Representatives_elections_in_Florida";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 38: Ron_DeSantis AND 2014_United_States_House_of_Representatives_elections_in_Florida";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 38: Ron_DeSantis AND 2014_United_States_House_of_Representatives_elections_in_Florida";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 39: Canine_reproduction AND Penis_captivus";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 39: Canine_reproduction AND Penis_captivus";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 39: Canine_reproduction AND Penis_captivus";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 40: Church_of_the_Holy_Sepulchre AND Christian_tradition";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 40: Church_of_the_Holy_Sepulchre AND Christian_tradition";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 40: Church_of_the_Holy_Sepulchre AND Christian_tradition";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 41: Stan_Lee AND Just_Imagine...";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 41: Stan_Lee AND Just_Imagine...";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 41: Stan_Lee AND Just_Imagine...";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 42: Puget_Sound_region AND Mount_Rainier";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 42: Puget_Sound_region AND Mount_Rainier";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 42: Puget_Sound_region AND Mount_Rainier";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 43: History_of_the_Jews_in_Tunisia AND Tunisia";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 44: Chor_Machaaye_Shor AND Bipasha_Basu";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 44: Chor_Machaaye_Shor AND Bipasha_Basu";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 44: Chor_Machaaye_Shor AND Bipasha_Basu";"Anonymous User 3";"Yes";"No";"DOES NOT APPLY";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 45: Akshay_Kumar_filmography AND Apna_Bombay_Talkies";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 45: Akshay_Kumar_filmography AND Apna_Bombay_Talkies";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 45: Akshay_Kumar_filmography AND Apna_Bombay_Talkies";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 46: Kevin_Warren AND Detroit_Lions";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 46: Kevin_Warren AND Detroit_Lions";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 46: Kevin_Warren AND Detroit_Lions";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 47: Decathlon AND Mykola_Avilov";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 47: Decathlon AND Mykola_Avilov";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 47: Decathlon AND Mykola_Avilov";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 48: Flip-flop_(electronics) AND Signal";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 48: Flip-flop_(electronics) AND Signal";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 48: Flip-flop_(electronics) AND Signal";"Anonymous User 3";"Yes";"No";"No";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 49: Pakistan AND Tomb_of_Shah_Rukn-e-Alam";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 49: Pakistan AND Tomb_of_Shah_Rukn-e-Alam";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 49: Pakistan AND Tomb_of_Shah_Rukn-e-Alam";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 50: It's_My_Party AND Amy_Winehouse";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 50: It's_My_Party AND Amy_Winehouse";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 50: It's_My_Party AND Amy_Winehouse";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 51: Stevie_Ray_Vaughan AND Soul_to_Soul_(album)";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 51: Stevie_Ray_Vaughan AND Soul_to_Soul_(album)";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 51: Stevie_Ray_Vaughan AND Soul_to_Soul_(album)";"Anonymous User 3";"Yes";"No";"DOES NOT APPLY";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 52: Prince_Philip,_Duke_of_Edinburgh AND Royal_Naval_College,_Greenwich";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 53: Alphabet_Inc. AND Steve_Stoute";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 53: Alphabet_Inc. AND Steve_Stoute";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 53: Alphabet_Inc. AND Steve_Stoute";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 54: Triple_Canopy AND 75th_Ranger_Regiment";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 54: Triple_Canopy AND 75th_Ranger_Regiment";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 54: Triple_Canopy AND 75th_Ranger_Regiment";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 55: Unemployment_in_Spain AND Extremadura";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 55: Unemployment_in_Spain AND Extremadura";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 55: Unemployment_in_Spain AND Extremadura";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 56: Wuji_(philosophy) AND Infinity";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 56: Wuji_(philosophy) AND Infinity";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 56: Wuji_(philosophy) AND Infinity";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 57: Douglas_A-1_Skyraider AND Operation_Pierce_Arrow";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 57: Douglas_A-1_Skyraider AND Operation_Pierce_Arrow";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 57: Douglas_A-1_Skyraider AND Operation_Pierce_Arrow";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 58: I_Lost_My_Body AND George_Wendt";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 58: I_Lost_My_Body AND George_Wendt";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 58: I_Lost_My_Body AND George_Wendt";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 59: Vanishing_Vision AND X_Japan";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 59: Vanishing_Vision AND X_Japan";"Anonymous User 2";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 59: Vanishing_Vision AND X_Japan";"Anonymous User 3";"Yes";"No";"Yes";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 60: British_Leeward_Islands AND Montserrat";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 60: British_Leeward_Islands AND Montserrat";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 60: British_Leeward_Islands AND Montserrat";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 61: Boulet_Brothers AND Drag_queen";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 61: Boulet_Brothers AND Drag_queen";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 61: Boulet_Brothers AND Drag_queen";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 62: Septimius_Severus AND Battle_of_Issus_(194)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 62: Septimius_Severus AND Battle_of_Issus_(194)";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 62: Septimius_Severus AND Battle_of_Issus_(194)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 63: Naval_ensign AND Flag";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 63: Naval_ensign AND Flag";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 63: Naval_ensign AND Flag";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 64: University_of_Sunderland AND Tony_Scott";"Anonymous User 1";"No";"No";"Yes";"Too obvious";"Unexpected";0;"0,2";0;0
+"Entity Pair 64: University_of_Sunderland AND Tony_Scott";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 64: University_of_Sunderland AND Tony_Scott";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 65: Paul_Silas AND Cardiac_arrest";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 65: Paul_Silas AND Cardiac_arrest";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 65: Paul_Silas AND Cardiac_arrest";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 66: Leather_Jackets_(film) AND D._B._Sweeney";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 66: Leather_Jackets_(film) AND D._B._Sweeney";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 66: Leather_Jackets_(film) AND D._B._Sweeney";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 67: Node.js AND Wakanda_(software)";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 67: Node.js AND Wakanda_(software)";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 67: Node.js AND Wakanda_(software)";"Anonymous User 3";"Yes";"No";"DOES NOT APPLY";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 68: Universal_Studios_Beijing AND Lights!_Camera!_Action!_Hosted_by_Steven_Spielberg";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 68: Universal_Studios_Beijing AND Lights!_Camera!_Action!_Hosted_by_Steven_Spielberg";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 68: Universal_Studios_Beijing AND Lights!_Camera!_Action!_Hosted_by_Steven_Spielberg";"Anonymous User 3";"Yes";"No";"No";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 69: Krabat_(novel) AND Otfried_Preußler";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 69: Krabat_(novel) AND Otfried_Preußler";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 69: Krabat_(novel) AND Otfried_Preußler";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 70: Hockey_One AND Blake_Govers";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 70: Hockey_One AND Blake_Govers";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 70: Hockey_One AND Blake_Govers";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 71: List_of_selective_high_schools_in_New_South_Wales AND North_Sydney_Boys_High_School";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 71: List_of_selective_high_schools_in_New_South_Wales AND North_Sydney_Boys_High_School";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 71: List_of_selective_high_schools_in_New_South_Wales AND North_Sydney_Boys_High_School";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 72: In_the_Meantime_(Spacehog_song) AND All_Day_(Girl_Talk_album)";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 72: In_the_Meantime_(Spacehog_song) AND All_Day_(Girl_Talk_album)";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 72: In_the_Meantime_(Spacehog_song) AND All_Day_(Girl_Talk_album)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 73: Diving_at_the_1996_Summer_Olympics AND Diving_at_the_1996_Summer_Olympics_–_Women's_3_metre_springboard";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 74: Legislative_Assembly_of_Macau AND Pro-democracy_camp_(Macau)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 74: Legislative_Assembly_of_Macau AND Pro-democracy_camp_(Macau)";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 74: Legislative_Assembly_of_Macau AND Pro-democracy_camp_(Macau)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 75: Rosencrantz_and_Guildenstern_(play) AND Rosencrantz_and_Guildenstern_Are_Dead";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 75: Rosencrantz_and_Guildenstern_(play) AND Rosencrantz_and_Guildenstern_Are_Dead";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 75: Rosencrantz_and_Guildenstern_(play) AND Rosencrantz_and_Guildenstern_Are_Dead";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 76: Earl_of_Airlie AND David_Ogilvy,_11th_Earl_of_Airlie";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 77: Steve_Francis AND 2002–03_Houston_Rockets_season";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 77: Steve_Francis AND 2002–03_Houston_Rockets_season";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 77: Steve_Francis AND 2002–03_Houston_Rockets_season";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 78: Alan_Pulido AND Rodolfo_Pizarro";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 78: Alan_Pulido AND Rodolfo_Pizarro";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 78: Alan_Pulido AND Rodolfo_Pizarro";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 79: Lois_Lowry AND Anastasia_Has_the_Answers";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 79: Lois_Lowry AND Anastasia_Has_the_Answers";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 79: Lois_Lowry AND Anastasia_Has_the_Answers";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 80: Transition_metal_NHC_complex AND IMes";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 80: Transition_metal_NHC_complex AND IMes";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 80: Transition_metal_NHC_complex AND IMes";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 81: Uganda_Airlines_(1976–2001) AND Entebbe_International_Airport";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 81: Uganda_Airlines_(1976–2001) AND Entebbe_International_Airport";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 81: Uganda_Airlines_(1976–2001) AND Entebbe_International_Airport";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 82: Gaseous_diffusion AND Clarendon_Laboratory";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 82: Gaseous_diffusion AND Clarendon_Laboratory";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 82: Gaseous_diffusion AND Clarendon_Laboratory";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 83: Jarman_Gap AND Rockfish_Gap";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 83: Jarman_Gap AND Rockfish_Gap";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 83: Jarman_Gap AND Rockfish_Gap";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 84: Armeniac_Theme AND Lesser_Armenia";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 84: Armeniac_Theme AND Lesser_Armenia";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 84: Armeniac_Theme AND Lesser_Armenia";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 85: Criticism_of_the_government_response_to_Hurricane_Katrina AND A_Concert_for_Hurricane_Relief";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin'";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin'";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 86: List_of_Billboard_Mainstream_Rock_number-one_songs_of_the_1980s AND Free_Fallin'";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 87: Tim_Morse AND Scott_Thompson_(businessman)";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 87: Tim_Morse AND Scott_Thompson_(businessman)";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 87: Tim_Morse AND Scott_Thompson_(businessman)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 88: Montana_Resources_LLP AND The_Washington_Companies";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 88: Montana_Resources_LLP AND The_Washington_Companies";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 88: Montana_Resources_LLP AND The_Washington_Companies";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 89: Most_wanted_list AND ICE_Most_Wanted";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 89: Most_wanted_list AND ICE_Most_Wanted";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 89: Most_wanted_list AND ICE_Most_Wanted";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 90: Venus_(given_name) AND Venus_Ramey";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 90: Venus_(given_name) AND Venus_Ramey";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 90: Venus_(given_name) AND Venus_Ramey";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 91: Von_Mises_yield_criterion AND Henri_Tresca";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 91: Von_Mises_yield_criterion AND Henri_Tresca";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 91: Von_Mises_yield_criterion AND Henri_Tresca";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 92: Chatchai_Budprom AND PT_Prachuap_F.C.";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 92: Chatchai_Budprom AND PT_Prachuap_F.C.";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 92: Chatchai_Budprom AND PT_Prachuap_F.C.";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 93: Fury_Road_(2023) AND MLW_Fury_Road";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 93: Fury_Road_(2023) AND MLW_Fury_Road";"Anonymous User 2";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 93: Fury_Road_(2023) AND MLW_Fury_Road";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 94: The_Headmaster_Ritual AND How_Soon_Is_Now?";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 95: Fictional_religion AND Church_of_All_Worlds";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 95: Fictional_religion AND Church_of_All_Worlds";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 95: Fictional_religion AND Church_of_All_Worlds";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 96: Belarus–Poland_border AND Białowieża";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 96: Belarus–Poland_border AND Białowieża";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 96: Belarus–Poland_border AND Białowieża";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 97: List_of_wars_involving_Estonia AND Soviet_occupation_of_the_Baltic_states_(1940)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 97: List_of_wars_involving_Estonia AND Soviet_occupation_of_the_Baltic_states_(1940)";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 97: List_of_wars_involving_Estonia AND Soviet_occupation_of_the_Baltic_states_(1940)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 98: Mary_Odili AND Rose_A._George";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 98: Mary_Odili AND Rose_A._George";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 98: Mary_Odili AND Rose_A._George";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 99: Socialist_realism AND Geliy_Korzhev";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 99: Socialist_realism AND Geliy_Korzhev";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 99: Socialist_realism AND Geliy_Korzhev";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 100: Y._Vijaya AND Minnale_(TV_series)";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 100: Y._Vijaya AND Minnale_(TV_series)";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 100: Y._Vijaya AND Minnale_(TV_series)";"Anonymous User 3";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 101: Uname AND List_of_POSIX_commands";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 101: Uname AND List_of_POSIX_commands";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 101: Uname AND List_of_POSIX_commands";"Anonymous User 3";"Yes";"No";"Yes";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 102: Jewish_surname AND Mitrani";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 102: Jewish_surname AND Mitrani";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 102: Jewish_surname AND Mitrani";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 103: TI-85 AND TI-86";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 103: TI-85 AND TI-86";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 103: TI-85 AND TI-86";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 104: Union,_Kentucky AND Steve_Flesch";"Anonymous User 1";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 104: Union,_Kentucky AND Steve_Flesch";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 104: Union,_Kentucky AND Steve_Flesch";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 105: Vivek_Dhakar AND Gopal_Lal_Sharma";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 105: Vivek_Dhakar AND Gopal_Lal_Sharma";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 105: Vivek_Dhakar AND Gopal_Lal_Sharma";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 106: Krystal_Keith AND Show_Dog_Nashville";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 106: Krystal_Keith AND Show_Dog_Nashville";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 106: Krystal_Keith AND Show_Dog_Nashville";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 107: Membrillo AND Gustavia_superba";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 107: Membrillo AND Gustavia_superba";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 107: Membrillo AND Gustavia_superba";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film)";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 108: Arnold_Schwarzenegger AND The_Running_Man_(1987_film)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 109: Lady_Gaga AND David_Bowie";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 109: Lady_Gaga AND David_Bowie";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 109: Lady_Gaga AND David_Bowie";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film)";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 110: Bond_girl AND The_Spy_Who_Loved_Me_(film)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 111: Hum_Aapke_Hain_Koun..! AND List_of_highest-grossing_films_in_India";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 111: Hum_Aapke_Hain_Koun..! AND List_of_highest-grossing_films_in_India";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 111: Hum_Aapke_Hain_Koun..! AND List_of_highest-grossing_films_in_India";"Anonymous User 3";"Yes";"No";"DOES NOT APPLY";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 112: Mena_Suvari AND American_Horror_Story:_Apocalypse";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 112: Mena_Suvari AND American_Horror_Story:_Apocalypse";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 112: Mena_Suvari AND American_Horror_Story:_Apocalypse";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 113: Doctor_Strange_in_the_Multiverse_of_Madness AND Ms._Marvel_(miniseries)";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 113: Doctor_Strange_in_the_Multiverse_of_Madness AND Ms._Marvel_(miniseries)";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 113: Doctor_Strange_in_the_Multiverse_of_Madness AND Ms._Marvel_(miniseries)";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray";"Anonymous User 1";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 114: Assassination_of_Martin_Luther_King_Jr. AND James_Earl_Ray";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 115: Bhool_Bhulaiyaa_2 AND Kiara_Advani";"Anonymous User 1";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 115: Bhool_Bhulaiyaa_2 AND Kiara_Advani";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 115: Bhool_Bhulaiyaa_2 AND Kiara_Advani";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 116: Wraith_(Yuri_Watanabe) AND Tombstone_(character)";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 116: Wraith_(Yuri_Watanabe) AND Tombstone_(character)";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 116: Wraith_(Yuri_Watanabe) AND Tombstone_(character)";"Anonymous User 3";"Yes";"No";"No";"Too obvious";"Mildly Unexpected";0;0;1;0
+"Entity Pair 117: Venom_(2018_film) AND Matthias_Schoenaerts";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 117: Venom_(2018_film) AND Matthias_Schoenaerts";"Anonymous User 2";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 117: Venom_(2018_film) AND Matthias_Schoenaerts";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 118: Brent_Venables AND Oklahoma_Sooners_football";"Anonymous User 1";"Yes";"No";"No";"Irrelevant";"Mildly Unexpected";"0,5";"0,5";1;0
+"Entity Pair 118: Brent_Venables AND Oklahoma_Sooners_football";"Anonymous User 2";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
+"Entity Pair 118: Brent_Venables AND Oklahoma_Sooners_football";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 119: Rinku_Singh_(cricketer) AND Shreyas_Iyer";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 119: Rinku_Singh_(cricketer) AND Shreyas_Iyer";"Anonymous User 2";"Yes";"No";"Yes";"Serendipitous";"Mildly Unexpected";1;1;1;0
+"Entity Pair 119: Rinku_Singh_(cricketer) AND Shreyas_Iyer";"Anonymous User 3";"No";"DOES NOT APPLY";"No";"Irrelevant";"Unexpected";"0,5";"0,7";0;0
+"Entity Pair 120: Crooked_House_(film) AND Gemma_Arterton";"Anonymous User 1";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 120: Crooked_House_(film) AND Gemma_Arterton";"Anonymous User 2";"No";"DOES NOT APPLY";"Yes";"Serendipitous";"Unexpected";1;"1,2";0;0
+"Entity Pair 120: Crooked_House_(film) AND Gemma_Arterton";"Anonymous User 3";"Yes";"Yes";"DOES NOT APPLY";"Too obvious";"Expected";0;0;1;1
