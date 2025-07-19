@@ -69,6 +69,7 @@ def file_partitioning(file_path, num_partitions):
 
     print("Partitioning complete.")
     
+file_partitioning('C:\\Users\\Palma\\Desktop\\PHD\\ISAAKbackup\\ISAAKx\\clickstream-hrwiki-2025-03.tsv', 5)
 
 # Remove Stop Words form the text
 def cleansing(text):

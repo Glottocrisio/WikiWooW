@@ -1,3 +1,4 @@
+#Script for performing symbolic regression using PySR and gplearn
 
 import numpy as np
 import pandas as pd
@@ -9,8 +10,11 @@ from pysr import PySRRegressor
 def symbolicregressor(dataset):
     df = pd.read_csv(dataset, sep=';')
 
-    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
-    y = df.iloc[:, 13].values
+    X = df.iloc[:, [2, 3, 4, 5, 6, 7, 8, 9, 11, 13]].values 
+    y = df.iloc[:, 21].values
+
+    #X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
+    #y = df.iloc[:, 13].values
 
     # Instantiate and configure the PySRRegressor
     model = PySRRegressor(
@@ -42,9 +46,9 @@ def symbolicregressor(dataset):
 
 def symbolicregressor2(dataset):
     df = pd.read_csv(dataset, sep=';')
-
-    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
-    y = df.iloc[:, 13].values
+    df = df.dropna()
+    X = df.iloc[:, [2, 3, 4, 5, 6, 7, 8, 9, 11, 13]].values 
+    y = df.iloc[:, 21].values
     #add(inv(mul(div(neg(inv(0.893)), mul(sin(X1), neg(X0))), neg(div(abs(0.715), mul(-0.795, X0)))))
     #add(abs(abs(sub(neg(sqrt(mul(sin(sin(abs(0.396))), neg(X0)))), neg(mul(X1, X0))))), -0.268))
 
@@ -92,9 +96,13 @@ from gplearn.genetic import SymbolicRegressor
 def symbreg(dataset):
     # Example data
     df = pd.read_csv(dataset, sep=';')
+    print(df.columns)
+    df = df.dropna()
+    X = df.iloc[:, [19, 20]].values 
+    y = df.iloc[:, 21].values
 
-    X = df.iloc[:, [2, 5, 6, 7, 8, 9]].values 
-    y = df.iloc[:, 10].values 
+    #X = df.iloc[:, [2, 3, 4, 5, 6, 7, 8, 9, 11, 13]].values 
+    #y = df.iloc[:, 21].values
 
     # Initialize and fit the model
     model = SymbolicRegressor(population_size=5000, generations=20, stopping_criteria=0.01, p_crossover=0.7, p_subtree_mutation=0.1, p_hoist_mutation=0.05, p_point_mutation=0.1)
@@ -104,6 +112,7 @@ def symbreg(dataset):
     print("Expression:", model._program)
     return model._program
 
-symbreg("updated_data.csv")
-
+#symbreg("enhanced_entity_pairs.csv")
+symbolicregressor2("enhanced_entity_pairs_2.csv")
+symbolicregressor2("enhanced_entity_pairs_3.csv")
 #ymbolicregressor2("updated_data.csv")

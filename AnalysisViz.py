@@ -1,4 +1,5 @@
-#This module will implement the experiment runt on the WikiWooW dataset
+#This module will implement the experiment run on the WikiWooW dataset
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -22,19 +23,6 @@ from gplearn.genetic import SymbolicRegressor
 from mpl_toolkits.mplot3d import Axes3D
 import shap
 
-# def assrules(dataset):
-#     df = pd.read_csv(dataset, sep=';')
-
-#     df = df.iloc[:, [2, 5, 6, 7, 8, 9, 10, 12, 13]]
-#     print(df.dtypes)
-#     frequent_itemsets = apriori(df, min_support=0.5, use_colnames=False)
-#     print(frequent_itemsets)
-
-#     # Generating association rules
-#     rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=0.7)
-#     print(rules[['antecedents', 'consequents', 'support', 'confidence', 'lift']])
-
-# assrules("updated_data.csv")
 
 
 def testSimilarityIntercorrelation(dataset, selected_columns=None):
@@ -160,7 +148,7 @@ def svm(dataset):
     disp.plot()
     plt.show()
 
-svm("updated_data.csv")
+#svm("updated_data.csv")
 
 #KNN
 
@@ -245,7 +233,7 @@ def pca(dataset):
     plt.show()
 
 # Uncomment the following line to run the function
-pca("updated_data.csv")
+#pca("updated_data.csv")
 #pca("finaldataset.csv")
 
 ##ISOLATION FOREST
