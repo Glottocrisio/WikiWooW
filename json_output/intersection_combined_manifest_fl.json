@@ -1,0 +1,2366 @@
+[
+    {
+        "source": "Battle_of_Megalopolis- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Mary_Renault",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Shamsuddin_Ilyas_Shah- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.53,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Lysimachus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.61,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Josephus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.7,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- West_Nile_virus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.78,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Thalestris",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Pillars_of_Hercules",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Gandhara",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.62,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Seven_Wonders_of_the_Ancient_World",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.81,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Damnatio_ad_bestias- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.277398"
+        }
+    },
+    {
+        "source": "Eternal_flame- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Iskandariya",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Adriatic_Sea",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Amazons",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Cleitus_the_Black- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.271414"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- India",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.271414"
+        }
+    },
+    {
+        "source": "Demetrius_I_of_Macedon- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.63,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Greek_Anthology",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Callisthenes- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Magadha",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Babylonian_astronomical_diaries- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Seuthes_III- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.6,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.273407"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Battle_of_Megalopolis",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.68,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285875"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Barsine",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Potidaea",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.77,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.274650"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Pella",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Rabbinic_Judaism- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.66,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Great_Wall_of_China- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.66,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Gates_of_Alexander",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.287913"
+        }
+    },
+    {
+        "source": "Perdiccas- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.66,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.277398"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Anatolia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Library_of_Alexandria- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.64,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.274650"
+        }
+    },
+    {
+        "source": "Western_Roman_Empire- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.85,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279238"
+        }
+    },
+    {
+        "source": "Lighthouse_of_Alexandria- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.59,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Pompey",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279869"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Cassander",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Amyntas_III_of_Macedon- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.288833"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Cleopatra",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Greco-Bactrian_Kingdom- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.6,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Menander_I",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "1_Maccabees- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.64,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "The_School_of_Athens- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.81,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Pericles- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Dhana_Nanda- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Isocrates",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.64,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Dardanelles",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.288833"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Leonidas_of_Epirus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.7,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Smyrna- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Battle_of_Gaugamela- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.56,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Philip_III_of_Macedon",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Tutankhamun- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Coenus_(general)- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Gordian_Knot",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.277398"
+        }
+    },
+    {
+        "source": "Ancient_Greek- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.275402"
+        }
+    },
+    {
+        "source": "Ptolemaic_Kingdom- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Byzantium- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291123"
+        }
+    },
+    {
+        "source": "History_of_Egypt- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Companion_cavalry- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Achaemenid_Empire- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.274405"
+        }
+    },
+    {
+        "source": "Partition_of_Triparadisus- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Apollo",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Aristotle- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Kausia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Anatolian_languages- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.66,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.276400"
+        }
+    },
+    {
+        "source": "Ancient_Greece- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Albania- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.276400"
+        }
+    },
+    {
+        "source": "Cultural_depictions_of_Alexander_the_Great- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Israel- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.65,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.273407"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Gilgamesh",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Greco-Bactrian_Kingdom",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Central_Macedonia- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.7,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.287913"
+        }
+    },
+    {
+        "source": "Bactria- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.271414"
+        }
+    },
+    {
+        "source": "Uzbekistan- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Molossians",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Napoleon- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Chronology_of_European_exploration_of_Asia- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Roxana",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Iranian_studies",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Heidelberg_United_FC- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.68,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Lists_of_emperors- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Heterochromia_iridum- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.64,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Ancient_Olympic_Games",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.275402"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Nebuchadnezzar_II",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Solomon",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.275402"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Amfissa",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Serapis",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Antioch",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.59,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.274650"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Hercules",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.81,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "Ptolemy- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.69,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279869"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Ptolemy",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Panjshir_Valley- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.64,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Thasos",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Apelles",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.68,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Macedonia_(Greece)- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Ionia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Leonidas_I- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Partition_of_Babylon",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Macedonians_(Greeks)- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Herostratus- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Alexander_(2004_film)",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Chandragupta_Maurya",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.77,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.275877"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Battle_of_Gaugamela",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.288833"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Cappadocian_Greeks",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Gastrointestinal_perforation",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Bible- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Battle_of_Thebes",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Memnon_of_Rhodes",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Euphrates- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Wikipedia- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.52,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.277398"
+        }
+    },
+    {
+        "source": "Ancient_Greek_art- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Portrait_of_the_Four_Tetrarchs- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Peloponnesian_War- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.77,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Arrian",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.288833"
+        }
+    },
+    {
+        "source": "Pyrrho- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.63,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Battle_of_Thebes- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.7,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Sparta",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Western_world- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Somatophylakes- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.81,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.276400"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Attic_talent",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.81,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Napoleonic_Wars- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Hanging_Gardens_of_Babylon- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.78,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279869"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Peloponnesian_War",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.65,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Iran",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.77,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Hephaestion",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Babylon- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Nuristanis- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Taxila- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.57,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Agis_III- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.74,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.287913"
+        }
+    },
+    {
+        "source": "Timeline_of_ancient_history- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Artemis",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Phlegethon- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.57,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.274650"
+        }
+    },
+    {
+        "source": "Phalanx- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Chronology_of_European_exploration_of_Asia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Sparta- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Languages_of_the_Roman_Empire- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.85,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Olympias",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Roxana- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279346"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Chaeronea",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Peter_Green_(historian)",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.74,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Calicheamicin",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.64,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.288833"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Maedi",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Somatophylakes",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Second_Persian_invasion_of_Greece",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Justin_(historian)",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Alexandros_of_Antioch- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Sarissa- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.74,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Napoleon_Crossing_the_Alps- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Rome",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Zagros_Mountains",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Equestrian_statue",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Nearchus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.6,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279346"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Alexander_Hamilton",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Athens",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Coenus_(general)",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.51,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279346"
+        }
+    },
+    {
+        "source": "Prophets_and_messengers_in_Islam- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.285907"
+        }
+    },
+    {
+        "source": "Albanian_lek- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.275877"
+        }
+    },
+    {
+        "source": "Phrygia- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Etemenanki- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.72,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Atropatene- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.278396"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- League_of_Corinth",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.286872"
+        }
+    },
+    {
+        "source": "Tomb_of_Alexander_the_Great- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Genghis_Khan",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.83,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Gedrosia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.277398"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Boeotia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Western_culture- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Angelina_Jolie- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Oxyartes- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.53,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.275877"
+        }
+    },
+    {
+        "source": "The_Suicide_of_Saul- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.291529"
+        }
+    },
+    {
+        "source": "Campaspe- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.78,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Caracalla",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.75,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Tigris",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.73,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Taurus_Mountains",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.84,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.289510"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Istanbul_Archaeology_Museums",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.78,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Alexander_IV_of_Macedon",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.273407"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Illyria",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.74,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.283847"
+        }
+    },
+    {
+        "source": "Cynane- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.74,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279346"
+        }
+    },
+    {
+        "source": "Classical_antiquity- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.89,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Justinian_I- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.76,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.271414"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Rositsa_(river)",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.79,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Arabian_Peninsula",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.8,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.276400"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Asiatic_lion",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.77,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Oliver_Stone",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Halicarnassus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.81,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.280854"
+        }
+    },
+    {
+        "source": "Bahrain- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.74,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.293523"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Vergina_Sun",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.281853"
+        }
+    },
+    {
+        "source": "Alexander_I_of_Epirus- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.84,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.292528"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Seleucia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.66,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Paeonia_(kingdom)",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.82,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.287913"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Pompeii",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.53,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.279869"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Nectanebo_II",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.65,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Joan_of_Arc- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.66,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.273407"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Elateia",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.284882"
+        }
+    },
+    {
+        "source": "Sang_Nila_Utama- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.282849"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Mental_health",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.290529"
+        }
+    },
+    {
+        "source": "Alexander_the_Great- Harpalus",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.78,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.271414"
+        }
+    },
+    {
+        "source": "Nader_Shah- Alexander_the_Great",
+        "Serendipity-dataset": 0,
+        "Serendipity-dataset-metadata": {
+            "class-name": "Interesting/Serendipitous",
+            "job-name": "labeling-job/serendipity-dataset",
+            "confidence": 0.71,
+            "type": "groundtruth/text-classification",
+            "human-annotated": "yes",
+            "creation-date": "2024-07-12T14:00:00.272411"
+        }
+    }
+]
