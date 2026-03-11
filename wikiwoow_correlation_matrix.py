@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (c) 2025 Palma. All rights reserved.
+# Author: Palma.
+#
 """
 Correlation Matrix Visualization Script
 Creates a beautiful correlation matrix with yellow, green, and violet color scheme

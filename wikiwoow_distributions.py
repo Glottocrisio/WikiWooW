@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Copyright (c) 2025 Palma. All rights reserved.
+# Author: Palma.
+#
 """
 Excel Distribution Analyzer
 Generates distribution curves from Excel data columns
