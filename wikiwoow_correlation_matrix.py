@@ -24,17 +24,25 @@ def load_and_prepare_data(filepath):
     Load CSV file and prepare numeric columns for correlation analysis
     """
     # Read CSV with semicolon delimiter
-    df = pd.read_csv(filepath, delimiter=',')
+    df = pd.read_csv(filepath, delimiter=';')
+    df.dropna()
 
     # Define columns to analyze
     columns_to_analyze = [
         'ClickstreamEnt1Ent2',
-        'PopularityEnt1',
-        'PopularityEnt2',
+        'PopularityDiff',
         'CosineSimilarityEnt1Ent2',
         'DBpediaSimilarityEnt1Ent2',
         'DBpediaRelatednessEnt1Ent2',
         'PalmaInterestingnessEnt1Ent2',
+        'PalmaInterestingnessClick2',
+        'PalmaInterestingnessClick3',
+        'PalmaInterestingnessClick4',
+        'PalmaInterestingnessClick5',
+        'PalmaInterestingness2Ent1Ent2',
+        'PalmaInterestingness3Ent1Ent2',
+        'PalmaInterestingness4Ent1Ent2',
+        'PalmaInterestingness5Ent1Ent2',
         'Perceived_Relatedness',
         'Subjective_Knowledge',
         'Serendipity'
@@ -107,7 +115,7 @@ def plot_correlation_matrix(df, method='pearson', cluster=True, figsize=(14, 12)
     fig = plt.figure(figsize=figsize)
 
     # Create gridspec for complex layout
-    gs = fig.add_gridspec(3, 3, height_ratios=[0.5, 4, 0.3], width_ratios=[0.5, 4, 0.3],
+    gs = fig.add_gridspec(2, 3, height_ratios=[0.5, 4], width_ratios=[0.5, 4, 0.3],
                           hspace=0.02, wspace=0.02)
 
     # Main heatmap
@@ -133,7 +141,10 @@ def plot_correlation_matrix(df, method='pearson', cluster=True, figsize=(14, 12)
     ax_main.set_xticks(np.arange(len(corr_matrix.columns)))
     ax_main.set_yticks(np.arange(len(corr_matrix.columns)))
     ax_main.set_xticklabels(corr_matrix.columns, rotation=45, ha='right', fontsize=10)
-    ax_main.set_yticklabels(corr_matrix.columns, fontsize=10)
+    # ---- CHANGE 1: Bold y-axis labels with white background for readability ----
+    ax_main.set_yticklabels(corr_matrix.columns, fontsize=10, fontweight='bold')
+    for label in ax_main.get_yticklabels():
+        label.set_bbox(dict(facecolor='white', edgecolor='none', alpha=0.8, pad=1.5))
 
     # Add grid
     ax_main.set_xticks(np.arange(len(corr_matrix.columns) + 1) - 0.5, minor=True)
@@ -160,13 +171,10 @@ def plot_correlation_matrix(df, method='pearson', cluster=True, figsize=(14, 12)
         ax_left.axis('off')
 
     # Add title
-    fig.suptitle(f'Correlation Matrix Heatmap ({method.capitalize()} Correlation)',
-                 fontsize=16, fontweight='bold', y=0.98)
+    #fig.suptitle(f'Correlation Matrix Heatmap ({method.capitalize()} Correlation)',
+    #             fontsize=16, fontweight='bold', y=0.98)
 
-    # Add statistical summary box
-    ax_stats = fig.add_subplot(gs[2, :])
-    ax_stats.axis('off')
-
+    # ---- CHANGE 2: Statistics box in upper-right corner instead of bottom ----
     # Calculate statistics
     mask = np.triu(np.ones_like(corr_matrix, dtype=bool), k=1)
     upper_triangle = corr_matrix.where(mask)
@@ -178,9 +186,20 @@ def plot_correlation_matrix(df, method='pearson', cluster=True, figsize=(14, 12)
         f"• Median Correlation: {upper_triangle.median().median():.3f}"
     )
 
-    ax_stats.text(0.5, 0.5, stats_text, transform=ax_stats.transAxes,
-                  fontsize=10, ha='center', va='center',
-                  bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.5))
+    # Place the stats box in the upper-right area of the top dendrogram panel
+    if cluster and len(corr_matrix) > 2:
+        ax_top.text(0.98, 0.95, stats_text, transform=ax_top.transAxes,
+                    fontsize=9, ha='right', va='top',
+                    bbox=dict(boxstyle='round,pad=0.5', facecolor='lightyellow',
+                              edgecolor='goldenrod', alpha=0.95, linewidth=1.5),
+                    zorder=10)
+    else:
+        # Fallback: place on main axes if no clustering
+        ax_main.text(0.98, 0.02, stats_text, transform=ax_main.transAxes,
+                     fontsize=9, ha='right', va='bottom',
+                     bbox=dict(boxstyle='round,pad=0.5', facecolor='lightyellow',
+                               edgecolor='goldenrod', alpha=0.95, linewidth=1.5),
+                     zorder=10)
 
     plt.tight_layout()
     return fig, corr_matrix
@@ -295,7 +314,7 @@ def main():
     Main function to run the correlation analysis
     """
     # File path - update this to your file location
-    filepath = 'C:\\Users\\palmaco\\Downloads\\enhanced_entity_pairs.csv'
+    filepath = 'C:\\Users\\palmaco\\PycharmProjects\\UsefulScripts\\enhanced_entity_pairs_click_final.csv'
 
     print("Loading and preparing data...")
     df = load_and_prepare_data(filepath)
@@ -306,8 +325,9 @@ def main():
     # Create correlation matrix visualization
     print("\nCreating correlation matrix visualization...")
     fig1, corr_matrix = plot_correlation_matrix(df, method='pearson', cluster=True)
-    plt.savefig('correlation_matrix_clustered.png', dpi=300, bbox_inches='tight')
-    print("Saved: correlation_matrix_clustered.png")
+    #fig1, corr_matrix = plot_correlation_matrix(df, method='spearman', cluster=True)
+    plt.savefig('correlation_matrix_clustered_click_pearson.png', dpi=300, bbox_inches='tight')
+    print("Saved: correlation_matrix_clustered_click.png")
 
     # Create correlation network
     print("\nCreating correlation network...")
@@ -329,8 +349,8 @@ def main():
     plt.show()
 
     # Export correlation matrix to CSV
-    corr_matrix.to_csv('correlation_matrix.csv')
-    print("\nCorrelation matrix saved to: correlation_matrix.csv")
+    corr_matrix.to_csv('correlation_matrix_click.csv')
+    print("\nCorrelation matrix saved to: correlation_matrix_click.csv")
 
     return corr_matrix
 
