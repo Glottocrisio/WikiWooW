@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Palma. All rights reserved.
+# Author: Palma.
+#
 import tools as t
 from rdflib import Graph, URIRef, Literal, RDF, RDFS
 import requests
@@ -8,7 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import AnalysisViz as tst
 
-clks.enhance_entity_pairs_with_metrics("entity_pairs_en_final_3.csv", "enhanced_entity_pairs_3.csv")
+#clks.enhance_entity_pairs_with_metrics("entity_pairs_en_final_3.csv", "enhanced_entity_pairs_3_final.csv")
 
 #t.addgroundtruth("finaldataset.csv", "ground_truth_interestingness.json")
 
@@ -18,8 +21,8 @@ clks.enhance_entity_pairs_with_metrics("entity_pairs_en_final_3.csv", "enhanced_
 
 # 1. Clickstream data-dump partitioning
 
-t.file_partitioning('enwiki_20180420_100d.txt', 50)
-t.file_partitioning('enwiki_20180420_nolg_100d.txt', 50)
+#t.file_partitioning('enwiki_20180420_100d.txt', 50)
+#t.file_partitioning('enwiki_20180420_nolg_100d.txt', 50)
 
 ## For every file, execute the following:
 
@@ -27,37 +30,37 @@ t.file_partitioning('enwiki_20180420_nolg_100d.txt', 50)
 
 # Remove third column, where 'other' and 'link' are written
 
-i=1
-while i < 12:
-   clks.preprocessclkstrdataset("clickstream-enwiki-2023-11_"+str(i)+".tsv", "clkstrdataset"+str(i)+".tsv")
-   i+=1
+#i=1
+#while i < 12:
+#   clks.preprocessclkstrdataset("clickstream-enwiki-2023-11_"+str(i)+".tsv", "clkstrdataset"+str(i)+".tsv")
+#   i+=1
 
 #1.1 Search through all clickstream dumps to retrieve all couplets starting and ending with a given entity 
 #(in- and outgoing links)
 
-entity = input()
-wikiPageWikiLinkFile = "wikiPageWikiLink"+str(entity)+".tsv"
-i=1
-while i < 10:
-   j = 1
-   t.file_partitioning("C:\\Users\\Palma\\Desktop\\PHD\\ISAAKbackup\\ISAAKx\\clkstrdataset"+str(i)+".tsv", 100)
-   while j<100:
-      clks.findwikiPageWikiLink("C:\\Users\\Palma\\Desktop\\PHD\\WikiWooW\\output_partition_"+str(j)+".tsv", wikiPageWikiLinkFile, entity)
-      j += 1
-      i+=1
+# entity = input()
+# wikiPageWikiLinkFile = "wikiPageWikiLink"+str(entity)+".tsv"
+# i=1
+# while i < 10:
+#    j = 1
+#    t.file_partitioning("C:\\Users\\Palma\\Desktop\\PHD\\ISAAKbackup\\ISAAKx\\clkstrdataset"+str(i)+".tsv", 100)
+#    while j<100:
+#       clks.findwikiPageWikiLink("C:\\Users\\Palma\\Desktop\\PHD\\WikiWooW\\output_partition_"+str(j)+".tsv", wikiPageWikiLinkFile, entity)
+#       j += 1
+#       i+=1
 
 
-## 2. Preprocess the dataset to align it with the .tsv format
+# ## 2. Preprocess the dataset to align it with the .tsv format
 
-clks.preprocessclkstrdataset("clickstream-enwiki-2023-11_5.tsv", "mockupfinal.tsv")
-t.file_partitioning("wikiPageWikiLinkAlexander_the_Great.tsv", 21)
-#3. Append the popularity values to the dataset 
-dataset = "simpopoutput_partition_alex12.tsv"
-t.datasetcleansing(dataset)
-clks.addInterestingnessclkstrdataset('clean'+dataset)
-i=1
-while i<=4:
-    clks.addPopularityclkstrdataset("output_partition_alex"+str(i)+".tsv")
+# clks.preprocessclkstrdataset("clickstream-enwiki-2023-11_5.tsv", "mockupfinal.tsv")
+# t.file_partitioning("wikiPageWikiLinkAlexander_the_Great.tsv", 21)
+# #3. Append the popularity values to the dataset 
+# dataset = "simpopoutput_partition_alex12.tsv"
+# t.datasetcleansing(dataset)
+# clks.addInterestingnessclkstrdataset('clean'+dataset)
+# i=1
+# while i<=4:
+#     clks.addPopularityclkstrdataset("output_partition_alex"+str(i)+".tsv")
     # OR
     # i=1
     # while i < 12:
@@ -67,21 +70,21 @@ while i<=4:
 
 #4. Append corpus-based and knowledge-based similarity values to the dataset
 
-    clks.addKSimilarityclkstrdataset("popoutput_partition_alex"+str(i)+".tsv")
+#clks.addKSimilarityclkstrdataset("clickstream_matches.csv")
 
 #5. Append P-Interestingness value to the dataset
-dataset = "simpopoutput_partition_alex"+str(i)+".tsv"
-t.datasetcleansing(dataset)
-clks.addInterestingnessclkstrdataset('clean'+dataset)
-i+=1
+#dataset = "simpopoutput_partition_alex"+str(i)+".tsv"
+#t.datasetcleansing(dataset)
+#clks.addInterestingnessclkstrdataset('clean'+dataset)
+#i+=1
 
 ##6. (Optional) add features vectors to the dataset
-clks.addFeaturesclkstrdataset("temp_datasetpop.tsv")
+#clks.addFeaturesclkstrdataset("temp_datasetpop.tsv")
 
 ##7. Clean up the final dataset (Remove rows containing at least a zero to ease out 
 ##later calculations)
-dataset = 'temp_datasetintfinal.tsv'
-t.datasetcleansing(dataset)
+#dataset = 'temp_datasetintfinal.tsv'
+#t.datasetcleansing(dataset)
 
 
 ## After building up the dataset, all kinds of experiments are possible with it
